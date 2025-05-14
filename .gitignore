@@ -1,0 +1,6 @@
+
+# Archivo de clave de cuenta de servicio de Firebase (¡no subir a GitHub!)
+serviceAccountKey.json
+
+# Directorio de módulos de Node.js (se reinstalan con npm install)
+node_modules/
