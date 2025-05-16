@@ -20,59 +20,62 @@ async function uploadRoutines() {
     const routinesData = JSON.parse(fs.readFileSync(routinesFilePath, 'utf8'));
     console.log(`Leyendo ${routinesData.length} rutinas del archivo JSON...`);
 
-    // Usar un batch para escribir todas las rutinas y ejercicios de forma eficiente y atómica
+    // Usar un batch para escribir todas las rutinas y ejercicios de forma eficiente
     const batch = db.batch();
+    let routinesAddedCount = 0;
 
     for (const routine of routinesData) {
-      // Validar que la rutina tiene un ID para evitar duplicados
       if (!routine.id) {
         console.warn(`Saltando rutina sin ID: ${routine.nombre || 'Rutina sin nombre'}`);
         continue;
       }
 
-      // 2. Preparar los datos del documento principal de la rutina
-      // Excluimos la lista de ejercicios para guardarlos en la subcolección
-      const { ejercicios, ...routineDocData } = routine;
-
-      // Referencia al documento principal de la rutina en Firestore, usando el ID del JSON
       const routineRef = db.collection('rutinas').doc(routine.id);
 
-      // Usamos set() con { merge: true }. Esto:
-      // - Si el documento con este ID no existe, lo crea.
-      // - Si el documento ya existe, actualiza solo los campos proporcionados
-      //   sin borrar otros campos que pudieran existir (aunque con tu estructura
-      //   probablemente quieras reemplazarlo). SetOptions.merge() es seguro
-      //   para no borrar subcolecciones existentes si vuelves a ejecutar el script.
-      batch.set(routineRef, routineDocData, { merge: true });
+      // *** INICIO DE LA MODIFICACIÓN PRINCIPAL ***
+      // 2. Verificar si la rutina ya existe en Firestore
+      const docSnapshot = await routineRef.get();
 
-      console.log(`  Añadiendo o actualizando documento principal para rutina: "${routine.nombre}" (ID: ${routine.id})`);
-
-      // 3. Preparar los ejercicios para la subcolección
-      if (ejercicios && Array.isArray(ejercicios) && ejercicios.length > 0) {
-        const exercisesCollectionRef = routineRef.collection('ejercicios');
-
-        for (const exercise of ejercicios) {
-           // Validar que el ejercicio tiene un ID para evitar duplicados en la subcolección
-          if (!exercise.id) {
-            console.warn(`    Saltando ejercicio sin ID en rutina "${routine.id}": ${exercise.nombre || 'Ejercicio sin nombre'}`);
-            continue;
-          }
-          // Referencia al documento del ejercicio en la subcolección, usando el ID del JSON
-          const exerciseRef = exercisesCollectionRef.doc(exercise.id);
-
-          // Usamos set() para añadir o actualizar el documento del ejercicio en la subcolección
-          batch.set(exerciseRef, exercise, { merge: true });
-          // console.log(`    Añadiendo o actualizando ejercicio: "${exercise.nombre}" (ID: ${exercise.id})`); // Descomentar para depurar
-        }
+      if (docSnapshot.exists) {
+        console.log(`  Rutina "${routine.nombre}" (ID: ${routine.id}) ya existe en Firestore. Saltando.`);
+        // Opcional: Podrías decidir actualizarla aquí si quisieras, pero la solicitud es no copiarla.
+        // Por ejemplo, podrías comparar un campo 'version' o 'lastUpdated'
+        // y solo actualizar si la versión del JSON es más nueva.
+        // Pero para "no copiar las que están", simplemente la saltamos.
       } else {
-           console.log(`  No hay ejercicios para la rutina: "${routine.nombre}" (ID: ${routine.id})`);
+        // La rutina no existe, así que la añadimos al batch
+        console.log(`  Añadiendo nueva rutina al batch: "${routine.nombre}" (ID: ${routine.id})`);
+        const { ejercicios, ...routineDocData } = routine;
+        batch.set(routineRef, routineDocData); // No necesitamos merge:true aquí porque estamos creando un nuevo documento
+
+        // 3. Preparar los ejercicios para la subcolección (solo si la rutina es nueva)
+        if (ejercicios && Array.isArray(ejercicios) && ejercicios.length > 0) {
+          const exercisesCollectionRef = routineRef.collection('ejercicios');
+          for (const exercise of ejercicios) {
+            if (!exercise.id) {
+              console.warn(`    Saltando ejercicio sin ID en rutina "${routine.id}": ${exercise.nombre || 'Ejercicio sin nombre'}`);
+              continue;
+            }
+            const exerciseRef = exercisesCollectionRef.doc(exercise.id);
+            batch.set(exerciseRef, exercise); // Igualmente, no se necesita merge:true para nuevos ejercicios
+            // console.log(`    Añadiendo ejercicio: "${exercise.nombre}" (ID: ${exercise.id})`);
+          }
+        } else {
+          console.log(`  No hay ejercicios para la nueva rutina: "${routine.nombre}" (ID: ${routine.id})`);
+        }
+        routinesAddedCount++;
       }
+      // *** FIN DE LA MODIFICACIÓN PRINCIPAL ***
     }
 
-    // 4. Ejecutar el batch de escrituras
-    console.log('Ejecutando batch de escrituras...');
-    await batch.commit();
-    console.log('Carga de rutinas y ejercicios completada exitosamente.');
+    // 4. Ejecutar el batch de escrituras si hay algo que añadir
+    if (routinesAddedCount > 0) {
+      console.log(`Ejecutando batch para añadir ${routinesAddedCount} nuevas rutinas...`);
+      await batch.commit();
+      console.log('Carga de nuevas rutinas y ejercicios completada exitosamente.');
+    } else {
+      console.log('No se encontraron nuevas rutinas para añadir.');
+    }
 
   } catch (error) {
     console.error('Error durante la carga de rutinas:', error);

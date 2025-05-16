@@ -177,6 +177,330 @@
       }
       
     ]
-  }
-  
+  },
+  {
+  "id": "rutina_calistenia_principiante_superior",
+  "slug": "calistenia-principiante-superior",
+  "nombre": "Calistenia para Tren Superior",
+  "descripcion": "Rutina centrada en desarrollar fuerza básica con tu propio peso corporal.",
+  "nivelRecomendado": ["Principiante"],
+  "objetivos": ["Fuerza", "Resistencia"],
+  "lugarEntrenamiento": ["CALISTENIA", "EXTERIOR"],
+  "imagenUrl": "https://example.com/images/rutina_calistenia_principiante.jpg",
+  "ejercicios": [
+    {
+      "id": "ejercicio_inclinadas_barra_baja",
+      "nombre": "Flexiones Inclinadas en Barra Baja",
+      "descripcion": "Apoya las manos en una barra baja y realiza flexiones inclinadas.",
+      "imagenUrl": "https://example.com/images/inclinadas_barra.jpg",
+      "videoUrl": "https://example.com/videos/inclinadas_barra.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 12,
+      "series": 3,
+      "grupoMuscular": ["PECHO", "TRICEPS"],
+      "equipamientoNecesario": ["Barra baja"],
+      "lugarEntrenamiento": ["CALISTENIA", "EXTERIOR"],
+      "orden": 1
+    },
+    {
+      "id": "ejercicio_remo_invertido",
+      "nombre": "Remo Invertido",
+      "descripcion": "Cuelga del cuerpo bajo una barra horizontal y jala el pecho hacia arriba.",
+      "imagenUrl": "https://example.com/images/remo_invertido.jpg",
+      "videoUrl": "https://example.com/videos/remo_invertido.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
+      "series": 3,
+      "grupoMuscular": ["ESPALDA", "BICEPS"],
+      "equipamientoNecesario": ["Barra"],
+      "lugarEntrenamiento": ["CALISTENIA", "EXTERIOR"],
+      "orden": 2
+    },
+    {
+      "id": "ejercicio_hollow_hold",
+      "nombre": "Hollow Hold",
+      "descripcion": "Mantén tu cuerpo recto en el aire, contrayendo el abdomen.",
+      "imagenUrl": "https://example.com/images/hollow_hold.jpg",
+      "videoUrl": "https://example.com/videos/hollow_hold.mp4",
+      "duracionSegundos": 30,
+      "repeticiones": 0,
+      "series": 3,
+      "grupoMuscular": ["ABDOMEN", "FULL_BODY"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CALISTENIA", "CASA"],
+      "orden": 3
+    }
+  ]
+},
+{
+  "id": "rutina_intermedia_piernas_casa",
+  "slug": "intermedia-piernas-casa",
+  "nombre": "Piernas Fuertes en Casa",
+  "descripcion": "Una rutina desafiante para piernas y glúteos, sin necesidad de gimnasio.",
+  "nivelRecomendado": ["Intermedio"],
+  "objetivos": ["Resistencia", "Tono muscular"],
+  "lugarEntrenamiento": ["CASA"],
+  "imagenUrl": "https://example.com/images/rutina_piernas_casa.jpg",
+  "ejercicios": [
+    {
+      "id": "ejercicio_sentadilla_bulgaras",
+      "nombre": "Sentadillas Búlgaras",
+      "descripcion": "Apoya un pie atrás en una silla, baja el cuerpo controladamente.",
+      "imagenUrl": "https://example.com/images/sentadillas_bulgaras.jpg",
+      "videoUrl": "https://example.com/videos/sentadillas_bulgaras.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
+      "series": 3,
+      "grupoMuscular": ["GLUTEOS", "CUADRICEPS", "FEMORALES"],
+      "equipamientoNecesario": ["Silla o banco"],
+      "lugarEntrenamiento": ["CASA"],
+      "orden": 1
+    },
+    {
+      "id": "ejercicio_puente_gluteo",
+      "nombre": "Puente de Glúteos",
+      "descripcion": "Acostado boca arriba, levanta las caderas apretando los glúteos.",
+      "imagenUrl": "https://example.com/images/puente_gluteo.jpg",
+      "videoUrl": "https://example.com/videos/puente_gluteo.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 15,
+      "series": 3,
+      "grupoMuscular": ["GLUTEOS", "ESPALDA_BAJA"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA"],
+      "orden": 2
+    },
+    {
+      "id": "ejercicio_elevacion_puntas",
+      "nombre": "Elevaciones de Talones",
+      "descripcion": "Sube y baja tus talones para trabajar tus pantorrillas.",
+      "imagenUrl": "https://example.com/images/elevacion_puntas.jpg",
+      "videoUrl": "https://example.com/videos/elevacion_puntas.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 20,
+      "series": 3,
+      "grupoMuscular": ["PIERNAS"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA"],
+      "orden": 3
+    }
+  ]
+},
+{
+  "id": "rutina_fullbody_avanzado_exterior",
+  "slug": "fullbody-avanzado-exterior",
+  "nombre": "Full Body Avanzado al Aire Libre",
+  "descripcion": "Domina tu cuerpo con esta rutina de calistenia para todo el cuerpo al aire libre.",
+  "nivelRecomendado": ["Avanzado"],
+  "objetivos": ["Fuerza", "Control corporal"],
+  "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+  "imagenUrl": "https://example.com/images/rutina_fullbody_exterior.jpg",
+  "ejercicios": [
+    {
+      "id": "ejercicio_muscle_up",
+      "nombre": "Muscle Up",
+      "descripcion": "Combina una dominada y un fondo para pasar sobre la barra.",
+      "imagenUrl": "https://example.com/images/muscle_up.jpg",
+      "videoUrl": "https://example.com/videos/muscle_up.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 5,
+      "series": 4,
+      "grupoMuscular": ["ESPALDA", "PECHO", "BICEPS", "TRICEPS"],
+      "equipamientoNecesario": ["Barra fija"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 1
+    },
+    {
+      "id": "ejercicio_sentadilla_pistol",
+      "nombre": "Pistol Squat",
+      "descripcion": "Sentadilla con una sola pierna extendiendo la otra al frente.",
+      "imagenUrl": "https://example.com/images/pistol_squat.jpg",
+      "videoUrl": "https://example.com/videos/pistol_squat.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 6,
+      "series": 3,
+      "grupoMuscular": ["PIERNAS", "GLUTEOS"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 2
+    },
+    {
+      "id": "ejercicio_dragon_flag",
+      "nombre": "Dragon Flag",
+      "descripcion": "Ejercicio avanzado de core con cuerpo en línea recta descendente.",
+      "imagenUrl": "https://example.com/images/dragon_flag.jpg",
+      "videoUrl": "https://example.com/videos/dragon_flag.mp4",
+      "duracionSegundos": 20,
+      "repeticiones": 0,
+      "series": 3,
+      "grupoMuscular": ["ABDOMEN", "FULL_BODY"],
+      "equipamientoNecesario": ["Banco firme o barra"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 3
+    }
+  ]
+},
+ {
+  "id": "rutina_principiante_abdomen",
+  "slug": "principiante-abdomen-casa",
+  "nombre": "Rutina de Abdomen para Principiantes en Casa",
+  "descripcion": "Rutina básica para fortalecer el core sin necesidad de equipamiento.",
+  "nivelRecomendado": ["Principiante"],
+  "objetivos": ["Acondicionamiento", "Fuerza"],
+  "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+  "imagenUrl": "https://example.com/images/rutina_abdomen_casa.jpg",
+  "ejercicios": [
+    {
+      "id": "ejercicio_ab_crunch",
+      "nombre": "Crunch Abdominal",
+      "descripcion": "Acostado boca arriba, flexiona el tronco contrayendo el abdomen.",
+      "imagenUrl": "https://example.com/images/ejercicio_crunch.jpg",
+      "videoUrl": "https://example.com/videos/ejercicio_crunch.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 15,
+      "series": 3,
+      "grupoMuscular": ["ABDOMEN"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA"],
+      "orden": 1
+    },
+    {
+      "id": "ejercicio_elevaciones_piernas",
+      "nombre": "Elevaciones de Piernas",
+      "descripcion": "Eleva las piernas rectas sin levantar la espalda del suelo.",
+      "imagenUrl": "https://example.com/images/ejercicio_elevacion_piernas.jpg",
+      "videoUrl": "https://example.com/videos/ejercicio_elevacion_piernas.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 12,
+      "series": 3,
+      "grupoMuscular": ["ABDOMEN"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA"],
+      "orden": 2
+    },
+    {
+      "id": "ejercicio_plancha_lateral",
+      "nombre": "Plancha Lateral",
+      "descripcion": "Mantén una línea recta apoyando el antebrazo y el lateral del pie.",
+      "imagenUrl": "https://example.com/images/ejercicio_plancha_lateral.jpg",
+      "videoUrl": "https://example.com/videos/ejercicio_plancha_lateral.mp4",
+      "duracionSegundos": 30,
+      "repeticiones": 0,
+      "series": 3,
+      "grupoMuscular": ["ABDOMEN", "OBLICUOS"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 3
+    }
+  ]
+},
+ {
+  "id": "rutina_intermedio_superior_exterior",
+  "slug": "intermedio-superior-exterior",
+  "nombre": "Rutina de Tren Superior al Aire Libre",
+  "descripcion": "Ideal para quienes entrenan en parques, usando el peso corporal.",
+  "nivelRecomendado": ["Intermedio"],
+  "objetivos": ["Fuerza", "Resistencia"],
+  "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+  "imagenUrl": "https://example.com/images/rutina_tren_superior_parque.jpg",
+  "ejercicios": [
+    {
+      "id": "ejercicio_flexiones_diamante",
+      "nombre": "Flexiones Diamante",
+      "descripcion": "Manos juntas en forma de diamante para activar el tríceps.",
+      "imagenUrl": "https://example.com/images/ejercicio_flexion_diamante.jpg",
+      "videoUrl": "https://example.com/videos/ejercicio_flexion_diamante.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 12,
+      "series": 4,
+      "grupoMuscular": ["PECHO", "TRICEPS"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["EXTERIOR"],
+      "orden": 1
+    },
+    {
+      "id": "ejercicio_dominadas",
+      "nombre": "Dominadas",
+      "descripcion": "Agarra una barra y eleva tu cuerpo hasta que el mentón supere la barra.",
+      "imagenUrl": "https://example.com/images/ejercicio_dominadas.jpg",
+      "videoUrl": "https://example.com/videos/ejercicio_dominadas.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 8,
+      "series": 4,
+      "grupoMuscular": ["ESPALDA", "BICEPS"],
+      "equipamientoNecesario": ["Barra Fija"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 2
+    },
+    {
+      "id": "ejercicio_fondos_barras",
+      "nombre": "Fondos en Paralelas",
+      "descripcion": "Baja el cuerpo entre dos barras y empuja hacia arriba con los brazos.",
+      "imagenUrl": "https://example.com/images/ejercicio_fondos_paralelas.jpg",
+      "videoUrl": "https://example.com/videos/ejercicio_fondos_paralelas.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
+      "series": 3,
+      "grupoMuscular": ["TRICEPS", "PECHO"],
+      "equipamientoNecesario": ["Paralelas"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 3
+    }
+  ]
+},
+{
+  "id": "rutina_avanzado_fullbody_bandas",
+  "slug": "avanzado-fullbody-bandas",
+  "nombre": "Full Body con Bandas de Resistencia",
+  "descripcion": "Rutina exigente con bandas para activar todo el cuerpo desde casa.",
+  "nivelRecomendado": ["Avanzado"],
+  "objetivos": ["Fuerza", "Hipertrofia"],
+  "lugarEntrenamiento": ["CASA"],
+  "imagenUrl": "https://example.com/images/rutina_bandas_fullbody.jpg",
+  "ejercicios": [
+    {
+      "id": "ejercicio_remo_banda_sentado",
+      "nombre": "Remo con Banda Sentado",
+      "descripcion": "Sujeta la banda con los pies y rema hacia el torso.",
+      "imagenUrl": "https://example.com/images/ejercicio_remo_sentado.jpg",
+      "videoUrl": "https://example.com/videos/ejercicio_remo_sentado.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 15,
+      "series": 4,
+      "grupoMuscular": ["ESPALDA", "BICEPS"],
+      "equipamientoNecesario": ["Banda Elástica"],
+      "lugarEntrenamiento": ["CASA"],
+      "orden": 1
+    },
+    {
+      "id": "ejercicio_sentadilla_press",
+      "nombre": "Sentadilla + Press con Banda",
+      "descripcion": "Sentadilla tradicional seguida de un press sobre la cabeza.",
+      "imagenUrl": "https://example.com/images/ejercicio_sentadilla_press.jpg",
+      "videoUrl": "https://example.com/videos/ejercicio_sentadilla_press.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 12,
+      "series": 4,
+      "grupoMuscular": ["PIERNAS", "HOMBROS", "GLUTEOS"],
+      "equipamientoNecesario": ["Banda Elástica"],
+      "lugarEntrenamiento": ["CASA"],
+      "orden": 2
+    },
+    {
+      "id": "ejercicio_pallof_press",
+      "nombre": "Pallof Press",
+      "descripcion": "Ejercicio anti-rotacional de core con banda sujeta al costado.",
+      "imagenUrl": "https://example.com/images/ejercicio_pallof_press.jpg",
+      "videoUrl": "https://example.com/videos/ejercicio_pallof_press.mp4",
+      "duracionSegundos": 0,
+      "repeticiones": 12,
+      "series": 3,
+      "grupoMuscular": ["ABDOMEN", "CORE"],
+      "equipamientoNecesario": ["Banda Elástica"],
+      "lugarEntrenamiento": ["CASA"],
+      "orden": 3
+    }
+  ]
+}
+
 ]
