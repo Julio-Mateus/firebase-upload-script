@@ -1,0 +1,49 @@
+[
+  {
+    "id": "pullups",
+    "name": "Dominadas (Pull-ups)",
+    "iconUrl": "https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/calisthenics_icons%2Fpullup_icon.png?alt=media",
+    "description": "Fortalece la espalda y los bíceps, un ejercicio fundamental de tracción.",
+    "levels": [
+      {
+        "id": "pu_level_1",
+        "name": "Paso 1: Colgarse Activo (Active Dead Hang)",
+        "description": "Sujétate de la barra con los brazos extendidos, retrayendo las escápulas y manteniendo los hombros activos.",
+        "targetHoldTime": "3 series de 30-60 segundos",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/calisthenics_levels%2Factive_hang.jpg?alt=media",
+        "videoUrl": "https://www.youtube.com/watch?v=examplevideo1",
+        "notes": "Mantén la tensión en los dorsales y el core.",
+        "orden": 0
+      },
+      {
+        "id": "pu_level_2",
+        "name": "Paso 2: Dominadas Australianas (Australian Pull-ups)",
+        "description": "Con una barra baja o anillas, colócate debajo con el cuerpo recto y tracciona llevando el pecho a la barra.",
+        "targetReps": "3 series de 8-12 repeticiones",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/calisthenics_levels%2Faustralian_pullups.jpg?alt=media",
+        "videoUrl": "https://www.youtube.com/watch?v=examplevideo2",
+        "notes": "Ajusta la inclinación para variar la dificultad. Más horizontal es más difícil.",
+        "orden": 1
+      }
+      
+    ]
+  },
+  {
+    "id": "pushups",
+    "name": "Flexiones (Push-ups)",
+    "iconUrl": "https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/calisthenics_icons%2Fpushup_icon.png?alt=media",
+    "description": "Ejercicio básico de empuje para pecho, tríceps y hombros.",
+    "levels": [
+      {
+        "id": "push_level_1",
+        "name": "Paso 1: Flexiones en Pared (Wall Push-ups)",
+        "description": "Realiza el movimiento de flexión apoyado contra una pared.",
+        "targetReps": "3 series de 15-20 repeticiones",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/calisthenics_levels%2Fwall_pushups.jpg?alt=media",
+        "orden": 0
+      }
+      
+    ]
+  }
+  
+]
