@@ -1,0 +1,95 @@
+[
+  {
+    "id": "stoic_module_01_intro",
+    "title": "Introducción al Estoicismo: Calma ante la Adversidad",
+    "order": 1,
+    "introduction": "Bienvenido al primer módulo. Aquí comenzaremos a explorar los fundamentos del estoicismo, una filosofía antigua con herramientas poderosas para la vida moderna. Aprenderás cómo mantener la serenidad y la claridad mental incluso en momentos difíciles.",
+    "theoryContent": [
+      {
+        "id": "tc_01_01",
+        "subtitle": "¿Qué es el Estoicismo?",
+        "text": "El estoicismo es una escuela de filosofía helenística fundada por Zenón de Citio en Atenas a principios del siglo III a.C. No se trata de suprimir las emociones, sino de comprenderlas y transformarlas a través de la razón y la virtud. Se centra en lo que podemos controlar (nuestros pensamientos y acciones) y aceptar lo que no podemos."
+      },
+      {
+        "id": "tc_01_02",
+        "subtitle": "La Dicotomía del Control",
+        "text": "Uno de los pilares del estoicismo es distinguir entre lo que depende de nosotros y lo que no. Nuestras opiniones, juicios, deseos, aversiones y acciones están bajo nuestro control. Eventos externos, la salud (hasta cierto punto), la riqueza, la reputación y las acciones de otros no lo están completamente. Enfocarnos en lo primero nos da poder y paz."
+      }
+    ],
+    "quotes": [
+      {
+        "id": "q_01_01",
+        "text": "No son las cosas las que nos perturban, sino nuestras opiniones sobre las cosas.",
+        "author": "Epicteto"
+      },
+      {
+        "id": "q_01_02",
+        "text": "La felicidad de tu vida depende de la calidad de tus pensamientos.",
+        "author": "Marco Aurelio"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex_01_01_reflection",
+        "title": "Reflexión: ¿Qué puedo controlar?",
+        "description": "Piensa en una situación reciente que te causó estrés o preocupación. Enumera los aspectos de esa situación que estaban bajo tu control y aquellos que no lo estaban.",
+        "type": "REFLECTION_TEXT",
+        "questionPrompt": "Escribe aquí tus reflexiones sobre lo que podías y no podías controlar en esa situación...",
+        "isRequired": true
+      },
+      {
+        "id": "ex_01_02_action",
+        "title": "Práctica: Atención Plena al Presente",
+        "description": "Durante los próximos 5 minutos, intenta centrar toda tu atención en tu respiración. Si tu mente divaga, simplemente reconócelo y vuelve suavemente tu atención a la respiración.",
+        "type": "ACTION_PROMPT",
+        "isRequired": false
+      }
+    ]
+  },
+  {
+    "id": "stoic_module_02_virtue",
+    "title": "La Virtud como Único Bien",
+    "order": 2,
+    "introduction": "En este módulo exploraremos el concepto estoico central de que la virtud (sabiduría, justicia, coraje y templanza) es el único bien verdadero y suficiente para una vida feliz y floreciente (eudaimonia).",
+    "theoryContent": [
+      {
+        "id": "tc_02_01",
+        "subtitle": "Las Cuatro Virtudes Cardinales",
+        "text": "El estoicismo identifica cuatro virtudes principales: Sabiduría (comprender lo bueno, lo malo y lo indiferente), Justicia (actuar correctamente hacia los demás), Coraje (enfrentar las dificultades con resiliencia) y Templanza (moderación en nuestros deseos y acciones)."
+      }
+    ],
+    "quotes": [
+      {
+        "id": "q_02_01",
+        "text": "El hombre sabio no se aflige por las cosas que no tiene, sino que se regocija por las que tiene.",
+        "author": "Epicteto"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ex_02_01_mcq",
+        "title": "Identificando la Virtud",
+        "description": "Según el estoicismo, ¿cuál de las siguientes opciones es fundamental para una vida feliz?",
+        "type": "MULTIPLE_CHOICE",
+        "questionPrompt": "Selecciona la respuesta correcta:",
+        "choices": [
+          "Riqueza y posesiones materiales",
+          "La aprobación de los demás",
+          "Vivir de acuerdo con la virtud (sabiduría, justicia, coraje, templanza)",
+          "Evitar todo tipo de dolor o incomodidad"
+        ],
+        "correctAnswerIndex": 2, 
+        "isRequired": true
+      },
+      {
+        "id": "ex_02_02_reflection",
+        "title": "Reflexión: Aplicando una Virtud",
+        "description": "Piensa en un desafío actual en tu vida. ¿Cómo podrías aplicar una de las cuatro virtudes cardinales estoicas (sabiduría, justicia, coraje o templanza) para afrontarlo mejor?",
+        "type": "REFLECTION_TEXT",
+        "questionPrompt": "Describe cómo aplicarías una virtud a tu desafío...",
+        "isRequired": true
+      }
+    ]
+  }
+  
+]
