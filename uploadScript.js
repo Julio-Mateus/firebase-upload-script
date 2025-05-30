@@ -146,12 +146,10 @@ async function main() {
   );
 
   // 2. Subir Progresiones de Calistenia (con subcolección 'levels')
-  await uploadDataWithSubcollection(
+  await uploadEmbeddedData(
     calisthenicsProgressionsFilePath,
     'calisthenicsProgressions',
-    'levels',
-    'Progresión de Calistenia',
-    'Nivel'
+    'Progresión de Calistenia'
   );
 
   // 3. Subir Módulos de Estoicismo (con arrays embebidos)
