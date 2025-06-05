@@ -2,48 +2,90 @@
   {
     "id": "pullups",
     "name": "Dominadas (Pull-ups)",
-    "iconUrl": "https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/calisthenics_icons%2Fpullup_icon.png?alt=media",
+    "iconUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749164527/Dominadas_rpvlea.png",
     "description": "Fortalece la espalda y los bíceps, un ejercicio fundamental de tracción.",
     "levels": [
       {
         "id": "pu_level_1",
-        "name": "Paso 1: Colgarse Activo (Active Dead Hang)",
-        "description": "Sujétate de la barra con los brazos extendidos, retrayendo las escápulas y manteniendo los hombros activos.",
-        "targetHoldTime": "3 series de 30-60 segundos",
-        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/calisthenics_levels%2Factive_hang.jpg?alt=media",
-        "videoUrl": "https://www.youtube.com/watch?v=examplevideo1",
-        "notes": "Mantén la tensión en los dorsales y el core.",
+        "name": "Colgarse Activo (Active Dead Hang)",
+        "description": "Sujétate de la barra retrayendo las escápulas.",
+        "targetHoldTime": "3x30-60s",
+        "imageUrl": "https://example.com/images/active_hang.jpg",
+        "videoUrl": "https://example.com/videos/active_hang.mp4",
+        "notes": "Mantén tensión en dorsales.",
         "orden": 0
       },
       {
         "id": "pu_level_2",
-        "name": "Paso 2: Dominadas Australianas (Australian Pull-ups)",
-        "description": "Con una barra baja o anillas, colócate debajo con el cuerpo recto y tracciona llevando el pecho a la barra.",
-        "targetReps": "3 series de 8-12 repeticiones",
-        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/calisthenics_levels%2Faustralian_pullups.jpg?alt=media",
-        "videoUrl": "https://www.youtube.com/watch?v=examplevideo2",
-        "notes": "Ajusta la inclinación para variar la dificultad. Más horizontal es más difícil.",
+        "name": "Dominadas Australianas",
+        "description": "Jala el pecho hacia una barra baja.",
+        "targetReps": "3x8-12",
+        "imageUrl": "https://example.com/images/australian_pullups.jpg",
+        "videoUrl": "https://example.com/videos/australian_pullups.mp4",
         "orden": 1
+      },
+      {
+        "id": "pu_level_3",
+        "name": "Negativas de Dominada",
+        "description": "Baja lentamente desde la parte alta.",
+        "targetReps": "3x6-8",
+        "imageUrl": "https://example.com/images/negativas_dominadas.jpg",
+        "videoUrl": "https://example.com/videos/negativas_dominadas.mp4",
+        "orden": 2
+      },
+      {
+        "id": "pu_level_4",
+        "name": "Dominadas Completas",
+        "description": "Supera la barra con el mentón.",
+        "targetReps": "3x6-10",
+        "imageUrl": "https://example.com/images/pullups.jpg",
+        "videoUrl": "https://example.com/videos/pullups.mp4",
+        "orden": 3
       }
-      
     ]
   },
   {
     "id": "pushups",
     "name": "Flexiones (Push-ups)",
-    "iconUrl": "https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/calisthenics_icons%2Fpushup_icon.png?alt=media",
-    "description": "Ejercicio básico de empuje para pecho, tríceps y hombros.",
+    "iconUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749164526/Flexiones_fxdykn.png",
+    "description": "Ejercicio fundamental de empuje para pecho, tríceps y hombros.",
     "levels": [
       {
         "id": "push_level_1",
-        "name": "Paso 1: Flexiones en Pared (Wall Push-ups)",
-        "description": "Realiza el movimiento de flexión apoyado contra una pared.",
-        "targetReps": "3 series de 15-20 repeticiones",
-        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/YOUR_PROJECT_ID.appspot.com/o/calisthenics_levels%2Fwall_pushups.jpg?alt=media",
+        "name": "Flexiones en Pared",
+        "description": "Flexiones apoyado en pared.",
+        "targetReps": "3x15-20",
+        "imageUrl": "https://example.com/images/wall_pushups.jpg",
+        "videoUrl": "https://example.com/videos/wall_pushups.mp4",
         "orden": 0
+      },
+      {
+        "id": "push_level_2",
+        "name": "Flexiones Inclinadas",
+        "description": "Flexiones con manos elevadas.",
+        "targetReps": "3x10-15",
+        "imageUrl": "https://example.com/images/incline_pushups.jpg",
+        "videoUrl": "https://example.com/videos/incline_pushups.mp4",
+        "orden": 1
+      },
+      {
+        "id": "push_level_3",
+        "name": "Flexiones Normales",
+        "description": "Cuerpo recto, baja y sube controlado.",
+        "targetReps": "3x10-20",
+        "imageUrl": "https://example.com/images/standard_pushups.jpg",
+        "videoUrl": "https://example.com/videos/standard_pushups.mp4",
+        "orden": 2
+      },
+      {
+        "id": "push_level_4",
+        "name": "Flexiones Diamante",
+        "description": "Manos juntas para enfocar tríceps.",
+        "targetReps": "3x8-12",
+        "imageUrl": "https://example.com/images/diamond_pushups.jpg",
+        "videoUrl": "https://example.com/videos/diamond_pushups.mp4",
+        "orden": 3
       }
-      
     ]
   }
-  
 ]
