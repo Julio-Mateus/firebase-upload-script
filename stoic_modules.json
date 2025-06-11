@@ -90,6 +90,167 @@
         "isRequired": true
       }
     ]
-  }
-  
+  },
+  {
+  "id": "stoic_module_03_obstacles",
+  "title": "Los Obstáculos son el Camino",
+  "order": 3,
+  "introduction": "Los estoicos no sólo aceptan los obstáculos, sino que los abrazan como parte esencial del crecimiento. En este módulo aprenderás cómo reinterpretar los retos y fracasos como oportunidades para ejercitar tu carácter.",
+  "theoryContent": [
+    {
+      "id": "tc_03_01",
+      "subtitle": "Percepción, Acción y Voluntad",
+      "text": "Marco Aurelio propone tres disciplinas para responder ante los desafíos: percepción (cómo vemos las cosas), acción (cómo respondemos) y voluntad (la fortaleza interna que mostramos)."
+    },
+    {
+      "id": "tc_03_02",
+      "subtitle": "Obstáculo = Camino",
+      "text": "El obstáculo en el camino no es el enemigo. Es el camino. Cada dificultad es una oportunidad para ejercitar la virtud: la paciencia, el coraje, la claridad o la humildad."
+    }
+  ],
+  "quotes": [
+    {
+      "id": "q_03_01",
+      "text": "Lo que impide la acción, avanza la acción. Lo que se interpone en el camino, se convierte en el camino.",
+      "author": "Marco Aurelio"
+    },
+    {
+      "id": "q_03_02",
+      "text": "Dios nos dio las dificultades para que usemos la razón para superarlas.",
+      "author": "Epicteto"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_03_01_visualization",
+      "title": "Visualización: Práctica de la Adversidad (Premeditatio Malorum)",
+      "description": "Cierra los ojos por unos minutos e imagina un obstáculo que podrías enfrentar hoy. Observa tus emociones, luego visualízate respondiendo con calma, racionalidad y virtud.",
+      "type": "ACTION_PROMPT",
+      "isRequired": false
+    },
+    {
+      "id": "ex_03_02_reflection",
+      "title": "Reflexión Escrita: Reencuadrando un Obstáculo",
+      "description": "Piensa en una dificultad reciente. ¿Cómo puedes verla como una oportunidad para crecer?",
+      "type": "REFLECTION_TEXT",
+      "questionPrompt": "Describe el obstáculo y cómo podrías convertirlo en un camino...",
+      "isRequired": true
+    },
+    {
+      "id": "ex_03_03_checklist",
+      "title": "Chequeo Estoico Diario",
+      "description": "Marca si cumpliste hoy alguno de estos actos estoicos:",
+      "type": "CHECKLIST",
+      "items": [
+        "Acepté lo que no podía cambiar sin quejarme.",
+        "Actué con coraje a pesar del miedo.",
+        "Mostré templanza frente a un deseo.",
+        "Respondí con justicia y no con egoísmo.",
+        "Reflexioné sobre mis pensamientos y emociones."
+      ],
+      "isRequired": false
+    },
+    {
+      "id": "ex_03_04_action",
+      "title": "Acción Estoica Concreta",
+      "description": "Toma una pequeña acción hoy que hayas estado posponiendo. Da un paso, aunque sea incómodo.",
+      "type": "ACTION_PROMPT",
+      "isRequired": false
+    }
+  ]
+},
+{
+  "id": "stoic_module_04_memento_mori",
+  "title": "Memento Mori: La Vida es Hoy",
+  "order": 4,
+  "introduction": "Este módulo trata sobre la conciencia de la muerte, no como algo deprimente, sino como una herramienta poderosa para vivir con intención, presencia y prioridad.",
+  "theoryContent": [
+    {
+      "id": "tc_04_01",
+      "subtitle": "¿Qué es Memento Mori?",
+      "text": "Memento Mori significa 'recuerda que morirás'. Los estoicos lo usaban para apreciar la vida y enfocar su energía en lo esencial. La muerte no es un castigo, es una certeza que nos invita a vivir con virtud ahora."
+    },
+    {
+      "id": "tc_04_02",
+      "subtitle": "La Urgencia Estoica",
+      "text": "Marco Aurelio nos recuerda que cada día puede ser el último. Si vivimos como si cada acción pudiera ser la última, haremos lo correcto, lo justo y lo noble sin posponerlo."
+    }
+  ],
+  "quotes": [
+    {
+      "id": "q_04_01",
+      "text": "No es que tengamos poco tiempo, es que perdemos mucho.",
+      "author": "Séneca"
+    },
+    {
+      "id": "q_04_02",
+      "text": "Vive como si fueras a morir mañana. Aprende como si fueras a vivir para siempre.",
+      "author": "Marco Aurelio"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_04_01_reflection",
+      "title": "Reflexión: Prioridades Reales",
+      "description": "Haz una lista de 3 cosas que estás postergando pero que son importantes para ti.",
+      "type": "REFLECTION_TEXT",
+      "questionPrompt": "¿Qué cosas importantes has dejado para 'después' que deberías hacer hoy?",
+      "isRequired": true
+    },
+    {
+      "id": "ex_04_02_action",
+      "title": "Acción Estoica: Vive Hoy",
+      "description": "Elige una de esas 3 cosas y haz algo concreto hoy. Un paso real.",
+      "type": "ACTION_PROMPT",
+      "isRequired": true
+    }
+  ]
+},
+{
+  "id": "stoic_module_05_tranquilidad",
+  "title": "Tranquilidad Mental Estoica",
+  "order": 5,
+  "introduction": "El estoicismo no busca eliminar las emociones, sino alcanzar un estado de paz mental a través de la virtud, la claridad de juicio y la aceptación racional.",
+  "theoryContent": [
+    {
+      "id": "tc_05_01",
+      "subtitle": "Apatheia, no insensibilidad",
+      "text": "La apatheia estoica no es frialdad, sino libertad de emociones destructivas. Implica dominio interno, serenidad sin pasividad, y compasión sin apego."
+    },
+    {
+      "id": "tc_05_02",
+      "subtitle": "Juicios, no hechos",
+      "text": "Epicteto enseñaba que no son los hechos los que nos alteran, sino los juicios que hacemos sobre ellos. Aprender a observar antes de reaccionar es una forma poderosa de recuperar la paz."
+    }
+  ],
+  "quotes": [
+    {
+      "id": "q_05_01",
+      "text": "Elige no ser herido y no lo serás.",
+      "author": "Marco Aurelio"
+    },
+    {
+      "id": "q_05_02",
+      "text": "Nadie puede hacerte daño sin tu consentimiento.",
+      "author": "Epicteto"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_05_01_breathing",
+      "title": "Ejercicio de Respiración Estoica",
+      "description": "Durante 4 minutos, respira lentamente contando 4 segundos al inhalar, 4 segundos de pausa, 4 segundos de exhalación. Observa sin juzgar.",
+      "type": "ACTION_PROMPT",
+      "isRequired": false
+    },
+    {
+      "id": "ex_05_02_reflection",
+      "title": "Reflexión: ¿Qué me perturba realmente?",
+      "description": "Describe una emoción reciente intensa. Luego analiza: ¿fue el hecho, o cómo lo interpretaste?",
+      "type": "REFLECTION_TEXT",
+      "questionPrompt": "¿Cuál fue el juicio detrás de la emoción?",
+      "isRequired": true
+    }
+  ]
+}
 ]
