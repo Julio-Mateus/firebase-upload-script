@@ -987,9 +987,15 @@
       "descripcion": "Inclina el cuerpo hacia adelante con control para trabajar hombros y muñecas.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750781786/lean-planche_iisi0y.png",
       "videoUrl": "",
+      "duracionSegundos": 30,
+      "repeticiones": 0,
       "numeroDeSeries": 4,
-      "repeticiones": "20-30s",
-      "grupoMuscular": "Hombros"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["HOMBROS"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+      "orden": 1
     },
     {
       "id": "rutina_avanzado_lunes_push_ej2",
@@ -997,9 +1003,15 @@
       "descripcion": "Flexiones en pica para fortalecer los hombros y progresar hacia el handstand push-up.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494925/Flexiones_Pike_igi47z.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 8,
       "numeroDeSeries": 4,
-      "repeticiones": "6-10",
-      "grupoMuscular": "Hombros"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["HOMBROS"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+      "orden": 2
     },
     {
       "id": "rutina_avanzado_lunes_push_ej3",
@@ -1007,9 +1019,15 @@
       "descripcion": "Flexiones con hombros adelantados para fortalecer deltoides y preparar planche.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750868181/Flexiones_Pseudo-Planche_fylcdy.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
       "numeroDeSeries": 4,
-      "repeticiones": "8-10",
-      "grupoMuscular": "Pecho"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["PECHO", "HOMBROS"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+      "orden": 3
     },
     {
       "id": "rutina_avanzado_lunes_push_ej4",
@@ -1017,9 +1035,15 @@
       "descripcion": "Trabaja pecho, hombros y tríceps bajando con buena técnica.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750791080/Chest-Dip-on-Straight-Bar_Chest_pk7fpl.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 12,
       "numeroDeSeries": 4,
-      "repeticiones": "10-12",
-      "grupoMuscular": "Tríceps"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["TRÍCEPS", "PECHO"],
+      "equipamientoNecesario": ["Paralelas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+      "orden": 4
     },
     {
       "id": "rutina_avanzado_lunes_push_ej5",
@@ -1027,9 +1051,15 @@
       "descripcion": "Press con mancuernas para fuerza de empuje vertical.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750781787/Dumbbell-Shoulder-Press_v9zvoi.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
       "numeroDeSeries": 3,
-      "repeticiones": "8-10",
-      "grupoMuscular": "Hombros"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["HOMBROS"],
+      "equipamientoNecesario": ["Mancuernas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 5
     },
     {
       "id": "rutina_avanzado_lunes_push_ej6",
@@ -1037,9 +1067,15 @@
       "descripcion": "Sostén de piernas rectas para trabajar core y hombros.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750808001/L-Sit_rigbde.gif",
       "videoUrl": "",
+      "duracionSegundos": 30,
+      "repeticiones": 0,
       "numeroDeSeries": 3,
-      "repeticiones": "20-30s",
-      "grupoMuscular": "Core"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["CORE", "HOMBROS"],
+      "equipamientoNecesario": ["Paralelas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+      "orden": 6
     }
   ]
 },
@@ -1061,9 +1097,15 @@
       "descripcion": "Mantén la posición tuck en barra para fortalecer espalda y core.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750807849/tuck-front-lever-row_v3qwd9.gif",
       "videoUrl": "",
+      "duracionSegundos": 20,
+      "repeticiones": 0,
       "numeroDeSeries": 4,
-      "repeticiones": "10-20s",
-      "grupoMuscular": "Espalda"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["ESPALDA", "CORE"],
+      "equipamientoNecesario": ["Barra"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 1
     },
     {
       "id": "rutina_avanzado_martes_pull_ej2",
@@ -1071,9 +1113,15 @@
       "descripcion": "Pull-ups explosivas para trabajar fuerza y velocidad hacia muscle-up.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494957/Muscle_Up_l4ules.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 6,
       "numeroDeSeries": 4,
-      "repeticiones": "6-8",
-      "grupoMuscular": "Espalda"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["ESPALDA", "BÍCEPS"],
+      "equipamientoNecesario": ["Barra"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 2
     },
     {
       "id": "rutina_avanzado_martes_pull_ej3",
@@ -1081,9 +1129,15 @@
       "descripcion": "Baja lentamente desde la posición alta del muscle-up.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237920/t%C3%A9cnica-muscle-up-completo_gyrflv.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 3,
       "numeroDeSeries": 3,
-      "repeticiones": "3-5",
-      "grupoMuscular": "Espalda"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["ESPALDA", "HOMBROS"],
+      "equipamientoNecesario": ["Barra"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 3
     },
     {
       "id": "rutina_avanzado_martes_pull_ej4",
@@ -1091,9 +1145,15 @@
       "descripcion": "Remo con peso corporal para espalda media e inferior.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750784965/parallel-bars-bent-knee-inverted-row-back_taqxxb.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
       "numeroDeSeries": 4,
-      "repeticiones": "10-12",
-      "grupoMuscular": "Espalda"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["ESPALDA"],
+      "equipamientoNecesario": ["Paralelas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+      "orden": 4
     },
     {
       "id": "rutina_avanzado_martes_pull_ej5",
@@ -1101,9 +1161,15 @@
       "descripcion": "Fortalece bíceps y antebrazo, controla el movimiento.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750784983/Curl_Alternado_con_Mancuerna_qeimna.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 8,
       "numeroDeSeries": 3,
-      "repeticiones": "8 por brazo",
-      "grupoMuscular": "Bíceps"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["BÍCEPS", "ANTEBRAZO"],
+      "equipamientoNecesario": ["Mancuernas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 5
     },
     {
       "id": "rutina_avanzado_martes_pull_ej6",
@@ -1111,9 +1177,15 @@
       "descripcion": "Ejercicio de core colgado que también mejora el agarre.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750785008/hanging-deadbug_i07gfd.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 15,
       "numeroDeSeries": 4,
-      "repeticiones": "15",
-      "grupoMuscular": "Core"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["CORE"],
+      "equipamientoNecesario": ["Barra"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 6
     }
   ]
 },
@@ -1135,9 +1207,15 @@
       "descripcion": "Pierna trasera elevada. Mejora fuerza unilateral y estabilidad.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494954/Sentadillas_B%C3%BAlgaras_g4hiok.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
       "numeroDeSeries": 4,
-      "repeticiones": "6-10 por pierna",
-      "grupoMuscular": "Piernas"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["PIERNAS", "GLÚTEOS"],
+      "equipamientoNecesario": ["Mancuernas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 1
     },
     {
       "id": "rutina_avanzado_miercoles_piernas_ej2",
@@ -1145,9 +1223,15 @@
       "descripcion": "Sentadillas a una pierna. Desarrollan control, equilibrio y fuerza.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237930/pistol-squat-muscles_ru1tfo.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 6,
       "numeroDeSeries": 3,
-      "repeticiones": "5-8 por pierna",
-      "grupoMuscular": "Piernas"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["PIERNAS"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 2
     },
     {
       "id": "rutina_avanzado_miercoles_piernas_ej3",
@@ -1155,9 +1239,15 @@
       "descripcion": "Paso largo y controlado con peso. Excelente para glúteos y estabilidad.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494957/Zancadas_con_Mancuernas_rcpfhh.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
       "numeroDeSeries": 3,
-      "repeticiones": "10 por pierna",
-      "grupoMuscular": "Piernas"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["PIERNAS", "GLÚTEOS"],
+      "equipamientoNecesario": ["Mancuernas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 3
     },
     {
       "id": "rutina_avanzado_miercoles_piernas_ej4",
@@ -1165,9 +1255,15 @@
       "descripcion": "Core colgado en barra. Controla cada repetición para activar abdomen.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750785041/Hanging-Oblique-Knee-Raise_Waist_v0asel.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 12,
       "numeroDeSeries": 4,
-      "repeticiones": "10-15",
-      "grupoMuscular": "Core"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["CORE"],
+      "equipamientoNecesario": ["Barra"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 4
     },
     {
       "id": "rutina_avanzado_miercoles_piernas_ej5",
@@ -1175,9 +1271,15 @@
       "descripcion": "Isométrico fundamental para control corporal. Posición de 'banana'.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494915/Hollow_Hold_m3qm2r.gif",
       "videoUrl": "",
+      "duracionSegundos": 40,
+      "repeticiones": 0,
       "numeroDeSeries": 3,
-      "repeticiones": "30-45s",
-      "grupoMuscular": "Core"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["CORE"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 5
     },
     {
       "id": "rutina_avanzado_miercoles_piernas_ej6",
@@ -1185,9 +1287,15 @@
       "descripcion": "Core completo: frontal y oblicuos en una misma ronda.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494875/ejercicio_plancha_zaggzu.gif",
       "videoUrl": "",
+      "duracionSegundos": 120,
+      "repeticiones": 0,
       "numeroDeSeries": 1,
-      "repeticiones": "1min frontal + 30s por lado",
-      "grupoMuscular": "Core"
+      "descansoEntreSeriesSegundos": 0,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["CORE"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 6
     }
   ]
 },
@@ -1209,9 +1317,15 @@
       "descripcion": "Sostén en parada de manos. Mejora control, equilibrio y fuerza isométrica.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237917/handstand-walk_cghhhj.jpg",
       "videoUrl": "",
+      "duracionSegundos": 45,
+      "repeticiones": 0,
       "numeroDeSeries": 4,
-      "repeticiones": "30-60s",
-      "grupoMuscular": "Hombros"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["HOMBROS"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 1
     },
     {
       "id": "rutina_avanzado_jueves_pushskill_ej2",
@@ -1219,9 +1333,15 @@
       "descripcion": "Baja en control desde handstand contra pared. Trabaja fuerza vertical.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237926/handstand-pushup_qqyq6r.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 5,
       "numeroDeSeries": 3,
-      "repeticiones": "3-5",
-      "grupoMuscular": "Hombros"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["HOMBROS"],
+      "equipamientoNecesario": ["Pared"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 2
     },
     {
       "id": "rutina_avanzado_jueves_pushskill_ej3",
@@ -1229,9 +1349,15 @@
       "descripcion": "Toca un hombro mientras sostienes el equilibrio en parada de manos.",
       "imagenUrl": "",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
       "numeroDeSeries": 3,
-      "repeticiones": "8-10",
-      "grupoMuscular": "Hombros"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["HOMBROS", "CORE"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CALISTENIA"],
+      "orden": 3
     },
     {
       "id": "rutina_avanzado_jueves_pushskill_ej4",
@@ -1239,9 +1365,15 @@
       "descripcion": "Eleva los brazos con control al frente. Enfocado en deltoides frontales.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750790069/Dumbbell-Front-Raise_Shoulders_r38egj.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 12,
       "numeroDeSeries": 3,
-      "repeticiones": "10-12",
-      "grupoMuscular": "Hombros"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["HOMBROS"],
+      "equipamientoNecesario": ["Mancuernas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 4
     },
     {
       "id": "rutina_avanzado_jueves_pushskill_ej5",
@@ -1249,9 +1381,15 @@
       "descripcion": "Flexiones inclinando el cuerpo hacia adelante. Mejora fuerza y progresión a planche.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750781786/lean-planche_iisi0y.png",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 8,
       "numeroDeSeries": 3,
-      "repeticiones": "6-8",
-      "grupoMuscular": "Hombros"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["HOMBROS", "PECHO"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+      "orden": 5
     },
     {
       "id": "rutina_avanzado_jueves_pushskill_ej6",
@@ -1259,9 +1397,15 @@
       "descripcion": "Fondos profundos para estimular todo el rango de movimiento del empuje.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750791080/Chest-Dip-on-Straight-Bar_Chest_pk7fpl.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
       "numeroDeSeries": 3,
-      "repeticiones": "10",
-      "grupoMuscular": "Tríceps"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["TRÍCEPS", "PECHO"],
+      "equipamientoNecesario": ["Paralelas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+      "orden": 6
     }
   ]
 },
@@ -1283,9 +1427,15 @@
       "descripcion": "Realiza dominadas con peso extra o bajadas muy controladas para ganar fuerza pura.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494957/Muscle_Up_l4ules.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 6,
       "numeroDeSeries": 4,
-      "repeticiones": "5-8",
-      "grupoMuscular": "Espalda"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["ESPALDA", "BÍCEPS"],
+      "equipamientoNecesario": ["Barra", "Lastre"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 1
     },
     {
       "id": "rutina_avanzado_viernes_pullskill_ej2",
@@ -1293,9 +1443,15 @@
       "descripcion": "Desde tuck front lever, tira hacia arriba controlando el cuerpo en línea.",
       "imagenUrl": "",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 4,
       "numeroDeSeries": 3,
-      "repeticiones": "3-5",
-      "grupoMuscular": "Espalda"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["ESPALDA", "CORE"],
+      "equipamientoNecesario": ["Barra"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 2
     },
     {
       "id": "rutina_avanzado_viernes_pullskill_ej3",
@@ -1303,9 +1459,15 @@
       "descripcion": "Remo con un brazo para activar dorsal y estabilizar el core.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750791819/Dumbbell-Bent-over-Row_back_Back_dipibr.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
       "numeroDeSeries": 3,
-      "repeticiones": "10 por brazo",
-      "grupoMuscular": "Espalda"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["ESPALDA"],
+      "equipamientoNecesario": ["Mancuernas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 3
     },
     {
       "id": "rutina_avanzado_viernes_pullskill_ej4",
@@ -1313,9 +1475,15 @@
       "descripcion": "Practica el muscle-up usando una banda para ayudarte con la transición.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750791956/Muscle_Up_Asistido__banda_qfdyig.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 4,
       "numeroDeSeries": 3,
-      "repeticiones": "3-5",
-      "grupoMuscular": "Espalda"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["ESPALDA", "TRÍCEPS"],
+      "equipamientoNecesario": ["Barra", "Banda elástica"],
+      "lugarEntrenamiento": ["EXTERIOR", "CALISTENIA"],
+      "orden": 4
     },
     {
       "id": "rutina_avanzado_viernes_pullskill_ej5",
@@ -1323,9 +1491,15 @@
       "descripcion": "Bíceps y antebrazo trabajando con mancuerna en agarre neutro.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750792042/Dumbbell-Cross-Body-Hammer-Curl_Forearms_aailr3.gif",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 10,
       "numeroDeSeries": 3,
-      "repeticiones": "10",
-      "grupoMuscular": "Bíceps"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["BÍCEPS", "ANTEBRAZO"],
+      "equipamientoNecesario": ["Mancuernas"],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 5
     },
     {
       "id": "rutina_avanzado_viernes_pullskill_ej6",
@@ -1333,9 +1507,15 @@
       "descripcion": "Eleva las piernas y mantén la posición. Fortalece core y control en barra.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750792164/HANG_LEG_RAIGE_urewvv.gif",
       "videoUrl": "",
+      "duracionSegundos": 10,
+      "repeticiones": 10,
       "numeroDeSeries": 4,
-      "repeticiones": "10 + 10s",
-      "grupoMuscular": "Core"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["CORE"],
+      "equipamientoNecesario": ["Barra"],
+      "lugarEntrenamiento": ["CALISTENIA"],
+      "orden": 6
     },
     {
       "id": "rutina_avanzado_viernes_pullskill_ej7",
@@ -1343,9 +1523,15 @@
       "descripcion": "Acuéstate boca abajo y eleva brazos y piernas. Refuerza zona lumbar.",
       "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750792207/Superman_Waist_yg16r5.gif",
       "videoUrl": "",
+      "duracionSegundos": 30,
+      "repeticiones": 0,
       "numeroDeSeries": 3,
-      "repeticiones": "30s",
-      "grupoMuscular": "Espalda Baja"
+      "descansoEntreSeriesSegundos": 45,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["ESPALDA BAJA"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 7
     }
   ]
 },
@@ -1367,9 +1553,15 @@
       "descripcion": "Fluye entre variantes de handstand, giros y salidas para controlar la vertical.",
       "imagenUrl": "",
       "videoUrl": "",
+      "duracionSegundos": 600,
+      "repeticiones": 0,
       "numeroDeSeries": 1,
-      "repeticiones": "10 min",
-      "grupoMuscular": "Hombros"
+      "descansoEntreSeriesSegundos": 0,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["HOMBROS", "CONTROL"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CALISTENIA", "EXTERIOR"],
+      "orden": 1
     },
     {
       "id": "rutina_avanzado_sabado_freestyle_ej2",
@@ -1377,9 +1569,15 @@
       "descripcion": "Practica la posición de planche usando banda para asistencia técnica.",
       "imagenUrl": "",
       "videoUrl": "",
+      "duracionSegundos": 30,
+      "repeticiones": 0,
       "numeroDeSeries": 3,
-      "repeticiones": "al fallo",
-      "grupoMuscular": "Hombros"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["HOMBROS", "CORE"],
+      "equipamientoNecesario": ["Banda"],
+      "lugarEntrenamiento": ["CALISTENIA", "EXTERIOR"],
+      "orden": 2
     },
     {
       "id": "rutina_avanzado_sabado_freestyle_ej3",
@@ -1387,9 +1585,15 @@
       "descripcion": "Ensaya la fase de transición entre dominada y empuje del muscle-up.",
       "imagenUrl": "",
       "videoUrl": "",
+      "duracionSegundos": 0,
+      "repeticiones": 5,
       "numeroDeSeries": 3,
-      "repeticiones": "5",
-      "grupoMuscular": "Espalda"
+      "descansoEntreSeriesSegundos": 60,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["ESPALDA", "TRÍCEPS"],
+      "equipamientoNecesario": ["Barra"],
+      "lugarEntrenamiento": ["CALISTENIA", "EXTERIOR"],
+      "orden": 3
     },
     {
       "id": "rutina_avanzado_sabado_freestyle_ej4",
@@ -1397,9 +1601,15 @@
       "descripcion": "Ejercicios de flexibilidad dinámica para columna, hombros y caderas.",
       "imagenUrl": "",
       "videoUrl": "",
+      "duracionSegundos": 900,
+      "repeticiones": 0,
       "numeroDeSeries": 1,
-      "repeticiones": "15 min",
-      "grupoMuscular": "Movilidad"
+      "descansoEntreSeriesSegundos": 0,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["MOVILIDAD"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA", "EXTERIOR"],
+      "orden": 4
     },
     {
       "id": "rutina_avanzado_sabado_freestyle_ej5",
@@ -1407,9 +1617,15 @@
       "descripcion": "Trabajo de respiración consciente y estiramientos para recuperar.",
       "imagenUrl": "",
       "videoUrl": "",
+      "duracionSegundos": 600,
+      "repeticiones": 0,
       "numeroDeSeries": 1,
-      "repeticiones": "10 min",
-      "grupoMuscular": "Recuperación"
+      "descansoEntreSeriesSegundos": 0,
+      "descansoDespuesEjercicioSegundos": 0,
+      "grupoMuscular": ["RECUPERACIÓN"],
+      "equipamientoNecesario": [],
+      "lugarEntrenamiento": ["CASA"],
+      "orden": 5
     }
   ]
 }

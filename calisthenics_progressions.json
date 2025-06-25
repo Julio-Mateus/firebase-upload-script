@@ -10,7 +10,7 @@
         "name": "Colgarse Activo (Active Dead Hang)",
         "description": "Sujétate de la barra retrayendo las escápulas.",
         "targetHoldTime": "3x30-60s",
-        "imageUrl": "https://example.com/images/active_hang.jpg",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750887971/dead-hang_bqfjc3.gif",
         "videoUrl": "https://example.com/videos/active_hang.mp4",
         "notes": "Mantén tensión en dorsales.",
         "orden": 0
@@ -20,7 +20,7 @@
         "name": "Dominadas Australianas",
         "description": "Jala el pecho hacia una barra baja.",
         "targetReps": "3x8-12",
-        "imageUrl": "https://example.com/images/australian_pullups.jpg",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494969/Remo_Invertido_aeixpr.gif",
         "videoUrl": "https://example.com/videos/australian_pullups.mp4",
         "orden": 1
       },
@@ -29,7 +29,7 @@
         "name": "Negativas de Dominada",
         "description": "Baja lentamente desde la parte alta.",
         "targetReps": "3x6-8",
-        "imageUrl": "https://example.com/images/negativas_dominadas.jpg",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494957/Muscle_Up_l4ules.gif",
         "videoUrl": "https://example.com/videos/negativas_dominadas.mp4",
         "orden": 2
       },
@@ -55,7 +55,7 @@
         "name": "Flexiones en Pared",
         "description": "Flexiones apoyado en pared.",
         "targetReps": "3x15-20",
-        "imageUrl": "https://example.com/images/wall_pushups.jpg",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750887634/Flexiones_en_Pared_tir2jk.gif",
         "videoUrl": "https://example.com/videos/wall_pushups.mp4",
         "orden": 0
       },
@@ -64,7 +64,7 @@
         "name": "Flexiones Inclinadas",
         "description": "Flexiones con manos elevadas.",
         "targetReps": "3x10-15",
-        "imageUrl": "https://example.com/images/incline_pushups.jpg",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494910/Flexiones_Inclinadas_gfalvk.gif",
         "videoUrl": "https://example.com/videos/incline_pushups.mp4",
         "orden": 1
       },
@@ -73,7 +73,7 @@
         "name": "Flexiones Normales",
         "description": "Cuerpo recto, baja y sube controlado.",
         "targetReps": "3x10-20",
-        "imageUrl": "https://example.com/images/standard_pushups.jpg",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237933/push-up_epxori.gif",
         "videoUrl": "https://example.com/videos/standard_pushups.mp4",
         "orden": 2
       },
@@ -82,7 +82,7 @@
         "name": "Flexiones Diamante",
         "description": "Manos juntas para enfocar tríceps.",
         "targetReps": "3x8-12",
-        "imageUrl": "https://example.com/images/diamond_pushups.jpg",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750886449/Diamond_Push_up_Upper-Arms_inekzh.gif",
         "videoUrl": "https://example.com/videos/diamond_pushups.mp4",
         "orden": 3
       }
@@ -100,7 +100,7 @@
         "name": "Paso 1: Planche Lean",
         "description": "Inclina el cuerpo hacia adelante en posición de push-up, manteniendo hombros adelante de las muñecas.",
         "targetHoldTime": "3 series de 20-30 segundos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750781786/lean-planche_iisi0y.png",
         "videoUrl": "",
         "notes": "Mantén escápulas protractadas.",
         "orden": 0
@@ -110,7 +110,7 @@
         "name": "Paso 2: Tuck Planche",
         "description": "Mantén el cuerpo elevado con las rodillas al pecho y sin tocar el suelo.",
         "targetHoldTime": "3 series de 10-20 segundos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750888500/Tuck-Planche-progression-Tucked-Planche_egykkf.png",
         "videoUrl": "",
         "notes": "Focaliza en escápulas y core.",
         "orden": 1
@@ -120,7 +120,7 @@
         "name": "Paso 3: Advanced Tuck Planche",
         "description": "Misma postura que tuck, pero con la espalda más recta y caderas alineadas.",
         "targetHoldTime": "3 series de 10-15 segundos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750888772/Tuck-planche-Gif_Small_360x240_6.92-MB.gif_awccpt.gif",
         "videoUrl": "",
         "notes": "Mayor carga en hombros y espalda.",
         "orden": 2
@@ -130,7 +130,7 @@
         "name": "Paso 4: Straddle Planche",
         "description": "Mantén la planche con piernas abiertas.",
         "targetHoldTime": "3 series de 5-10 segundos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750888886/straddle-planche_doi2gp.webp",
         "videoUrl": "",
         "notes": "Ideal para transicionar a planche completa.",
         "orden": 3
@@ -159,7 +159,7 @@
         "name": "Paso 1: Tuck Front Lever",
         "description": "Agarre en barra con las rodillas al pecho, mantener el cuerpo paralelo al suelo.",
         "targetHoldTime": "3 series de 10-20 segundos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750807849/tuck-front-lever-row_v3qwd9.gif",
         "videoUrl": "",
         "notes": "Mantén la espalda recta y los glúteos activos.",
         "orden": 0
@@ -169,7 +169,7 @@
         "name": "Paso 2: Advanced Tuck Front Lever",
         "description": "Misma posición pero con más extensión en la espalda y caderas.",
         "targetHoldTime": "3 series de 10-15 segundos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750889089/advanced-tuck-front-lever-exercise_gntxyw.webp",
         "videoUrl": "",
         "notes": "Mayor carga sobre dorsales.",
         "orden": 1
@@ -179,7 +179,7 @@
         "name": "Paso 3: One Leg Front Lever",
         "description": "Una pierna extendida, la otra en tuck.",
         "targetHoldTime": "3 series de 10 segundos por lado",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750889148/one-leg-front-lever-exercise_gwstzb.webp",
         "videoUrl": "",
         "notes": "Alterna pierna para mantener simetría.",
         "orden": 2
@@ -189,7 +189,7 @@
         "name": "Paso 4: Straddle Front Lever",
         "description": "Ambas piernas extendidas hacia los lados, manteniendo el cuerpo paralelo.",
         "targetHoldTime": "3 series de 5-10 segundos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750889199/straddle-front-lever-exercise_dvp8dz.webp",
         "videoUrl": "",
         "notes": "Útil para reducir palanca sin perder forma.",
         "orden": 3
@@ -218,7 +218,7 @@
         "name": "Paso 1: Pike Hold",
         "description": "Desde el suelo o un banco, mantén la cadera sobre los hombros con la espalda alineada.",
         "targetHoldTime": "3 series de 20-30 segundos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494925/Flexiones_Pike_igi47z.gif",
         "videoUrl": "",
         "notes": "Trabaja hombros y equilibrio en posición segura.",
         "orden": 0
@@ -228,7 +228,7 @@
         "name": "Paso 2: Wall Handstand Hold (Espalda a la pared)",
         "description": "Realiza el handstand con el abdomen apuntando hacia fuera, espalda pegada a la pared.",
         "targetHoldTime": "3 series de 20-40 segundos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750889470/handstand-hold-on-wall_zx3rhn.webp",
         "videoUrl": "",
         "notes": "Enfócate en mantener línea recta.",
         "orden": 1
@@ -238,7 +238,7 @@
         "name": "Paso 3: Wall Handstand Hold (De cara a la pared)",
         "description": "Manos cerca de la pared, abdomen hacia ella. Mejora control y forma.",
         "targetHoldTime": "3 series de 20-40 segundos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750889596/wall_facing_handstand_djvom2.jpg",
         "videoUrl": "",
         "notes": "Activa core y glúteos, evita arquear.",
         "orden": 2
@@ -248,7 +248,7 @@
         "name": "Paso 4: Handstand Kick Up",
         "description": "Practica subir a parado de manos libre con patada controlada.",
         "targetReps": "3 series de 5 intentos",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750889736/Kick-Up-Against-the-Wall-and-Scissors-Alternating_ue72ue.gif",
         "videoUrl": "",
         "notes": "Busca equilibrio antes de caer.",
         "orden": 3
@@ -258,7 +258,7 @@
         "name": "Paso 5: Free Handstand",
         "description": "Parado de manos libre sostenido sin apoyo.",
         "targetHoldTime": "3 series de 5-15 segundos",
-        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237917/handstand-walk_cghhhj.jpg",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237926/handstand-pushup_qqyq6r.gif",
         "videoUrl": "",
         "notes": "Usa los dedos para equilibrar.",
         "orden": 4
@@ -277,7 +277,7 @@
         "name": "Paso 1: Explosive Pull-ups",
         "description": "Realiza dominadas lo más explosivas posibles, intentando llevar el pecho por encima de la barra.",
         "targetReps": "3 series de 5-8 repeticiones",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494957/Muscle_Up_l4ules.gif",
         "videoUrl": "",
         "notes": "Enfócate en velocidad y altura.",
         "orden": 0
@@ -287,7 +287,7 @@
         "name": "Paso 2: Chest-to-bar Pull-ups",
         "description": "Dominadas donde el pecho toca la barra. Mejora control de la tracción alta.",
         "targetReps": "3 series de 6-10 repeticiones",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750890006/Chest-to-bar_Pull-ups_fubn6r.gif",
         "videoUrl": "",
         "notes": "Activa core para mantener línea.",
         "orden": 1
@@ -297,7 +297,7 @@
         "name": "Paso 3: Straight Bar Dips",
         "description": "Desde la barra, baja y sube como si estuvieras encima de ella.",
         "targetReps": "3 series de 6-10 repeticiones",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750791080/Chest-Dip-on-Straight-Bar_Chest_pk7fpl.gif",
         "videoUrl": "",
         "notes": "Fortalece fase final del muscle-up.",
         "orden": 2
@@ -307,7 +307,7 @@
         "name": "Paso 4: Transition Drill (con banda o negativo)",
         "description": "Practica la transición desde pull-up a dip usando bandas o controlando el negativo.",
         "targetReps": "3 series de 3-5 repeticiones",
-        "imageUrl": "",
+        "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750890369/Muscle_Up_Asistido__banda_xzzer4.gif",
         "videoUrl": "",
         "notes": "Controla hombros y muñecas.",
         "orden": 3
@@ -336,7 +336,7 @@
       "name": "Paso 1: Plancha Lateral",
       "description": "Desde el suelo, apóyate en un brazo, formando línea recta.",
       "targetHoldTime": "3x30-40s por lado",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749501498/Plancha_Lateral_xqdd0b.gif",
       "videoUrl": "",
       "notes": "Activa oblicuos y hombros.",
       "orden": 0
@@ -346,7 +346,7 @@
       "name": "Paso 2: Vertical Hold en Barra",
       "description": "Sujeta una barra vertical manteniendo el cuerpo erguido.",
       "targetHoldTime": "3x15s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750890860/tucked-human-flag-hold-human-flag-progression-exercises_guq3so.png",
       "videoUrl": "",
       "notes": "Practica coordinación de agarres.",
       "orden": 1
@@ -356,7 +356,7 @@
       "name": "Paso 3: Human Flag Tuck",
       "description": "Eleva el cuerpo con rodillas al pecho.",
       "targetHoldTime": "3x5-10s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750890860/tucked-human-flag-hold-human-flag-progression-exercises_guq3so.png",
       "videoUrl": "",
       "notes": "Mantén core y escápulas activas.",
       "orden": 2
@@ -366,7 +366,7 @@
       "name": "Paso 4: Straddle Human Flag",
       "description": "Realiza la bandera con piernas abiertas para mayor equilibrio.",
       "targetHoldTime": "3x5-8s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750890990/Straddled-Human-Flag-Progression-exercises-1024x644_ne3mvs.png",
       "videoUrl": "",
       "notes": "Fuerza en brazo inferior clave.",
       "orden": 3
@@ -395,7 +395,7 @@
       "name": "Paso 1: Skin the Cat",
       "description": "Rota el cuerpo pasando los pies entre los brazos.",
       "targetReps": "3x3-5",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750891181/Skin_the_Cat_kxgaae.gif",
       "videoUrl": "",
       "notes": "Movilidad de hombros + control.",
       "orden": 0
@@ -405,7 +405,7 @@
       "name": "Paso 2: Tuck Back Lever",
       "description": "Cuerpo compacto con rodillas al pecho en posición horizontal.",
       "targetHoldTime": "3x10-15s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750891328/Tuck_Back_Lever_cy84v0.jpg",
       "videoUrl": "",
       "notes": "Aprieta glúteos y abdomen.",
       "orden": 1
@@ -415,7 +415,7 @@
       "name": "Paso 3: Advanced Tuck Back Lever",
       "description": "Espalda más extendida, caderas alineadas.",
       "targetHoldTime": "3x10-20s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750891390/Advanced_Tuck_Back_Lever_r1ccha.jpg",
       "videoUrl": "",
       "notes": "Postura más exigente.",
       "orden": 2
@@ -425,7 +425,7 @@
       "name": "Paso 4: Straddle Back Lever",
       "description": "Piernas separadas, facilita palanca.",
       "targetHoldTime": "3x10-15s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750891459/Straddle_Back_Lever_dwopbg.jpg",
       "videoUrl": "",
       "notes": "Control sin perder alineación.",
       "orden": 3
@@ -445,7 +445,7 @@
 {
   "id": "dragon_flag",
   "name": "Dragon Flag",
-  "iconUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237910/Leg-Raise-Dragon-Flag_dkp0bk.gif",
+  "iconUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494851/Dragon_Flag_ldcie1.webp",
   "description": "Ejercicio avanzado de core con fuerza y control extremo.",
   "tipo": "estático",
   "levels": [
@@ -454,7 +454,7 @@
       "name": "Paso 1: Tuck Hold en Banco",
       "description": "Acostado, eleva las caderas con rodillas al pecho.",
       "targetHoldTime": "3x15-30s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750892195/Tuck_Hold_en_Banco_xro2mf.gif",
       "videoUrl": "",
       "orden": 0
     },
@@ -463,7 +463,7 @@
       "name": "Paso 2: Negativas Parciales",
       "description": "Desciende controlado solo hasta media altura.",
       "targetReps": "3x5-8",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494851/Dragon_Flag_ldcie1.webp",
       "videoUrl": "",
       "orden": 1
     },
@@ -472,7 +472,7 @@
       "name": "Paso 3: Negativas Completas",
       "description": "Desciende hasta el banco con el cuerpo recto.",
       "targetReps": "3x3-6",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494851/Dragon_Flag_ldcie1.webp",
       "videoUrl": "",
       "orden": 2
     },
@@ -481,7 +481,7 @@
       "name": "Paso 4: Dragon Flag",
       "description": "Baja y sube con control, sin flexionar la cadera.",
       "targetReps": "3x3-5",
-      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237910/Leg-Raise-Dragon-Flag_dkp0bk.gif",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494851/Dragon_Flag_ldcie1.webp",
       "videoUrl": "",
       "orden": 3
     }
@@ -490,7 +490,7 @@
 {
   "id": "elbow_lever",
   "name": "Elbow Lever",
-  "iconUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237920/depositphotos_131274210-stock-illustration-plank-push-up_bpdwrn.jpg",
+  "iconUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750892602/Elbow-lever-street-workout_l3u9ku.jpg",
   "description": "Postura estática sobre los codos, equilibrio y control total.",
   "tipo": "estático",
   "levels": [
@@ -499,7 +499,7 @@
       "name": "Paso 1: Apoyo con Rodillas",
       "description": "Rodillas sobre codos, busca el equilibrio.",
       "targetHoldTime": "3x15-30s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750892592/elbow-lever-2-1024x1024_n2ldln.webp",
       "videoUrl": "",
       "orden": 0
     },
@@ -508,7 +508,7 @@
       "name": "Paso 2: Una pierna estirada",
       "description": "Extiende una pierna manteniendo el equilibrio.",
       "targetHoldTime": "3x10-20s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750892573/elbow-lever-3-1024x1024_wp8kil.webp",
       "videoUrl": "",
       "orden": 1
     },
@@ -517,7 +517,7 @@
       "name": "Paso 3: Elbow Lever completo",
       "description": "Ambas piernas extendidas, cuerpo paralelo al suelo.",
       "targetHoldTime": "3x10-20s",
-      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237920/depositphotos_131274210-stock-illustration-plank-push-up_bpdwrn.jpg",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750892602/Elbow-lever-street-workout_l3u9ku.jpg",
       "videoUrl": "",
       "orden": 2
     }
@@ -535,7 +535,7 @@
       "name": "Paso 1: Sentadilla a silla",
       "description": "Una pierna adelante, baja hasta tocar una silla.",
       "targetReps": "3x10 por pierna",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750893035/3275bcb8e585d7f135958e38fd9ecf49_pjirjt.gif",
       "videoUrl": "",
       "orden": 0
     },
@@ -544,7 +544,7 @@
       "name": "Paso 2: Sentadilla con asistencia",
       "description": "Sujétate de una banda o superficie para control.",
       "targetReps": "3x8 por pierna",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750893027/Pistol-Squat-Puerta_ohafpx.jpg",
       "videoUrl": "",
       "orden": 1
     },
@@ -562,7 +562,7 @@
 {
   "id": "l_sit",
   "name": "L-Sit",
-  "iconUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749239778/l-sit-on-floor_urpsbj.jpg",
+  "iconUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750808001/L-Sit_rigbde.gif",
   "description": "Isométrico de core y hombros, piernas en 90° con respecto al tronco.",
   "tipo": "estático",
   "levels": [
@@ -571,7 +571,7 @@
       "name": "Paso 1: Apoyo en Tuck",
       "description": "Mantén el cuerpo suspendido con rodillas al pecho.",
       "targetHoldTime": "3x10-20s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750893191/IMG_20160930_124727665-m4-300x225_jtu1bj.jpg",
       "videoUrl": "",
       "orden": 0
     },
@@ -580,7 +580,7 @@
       "name": "Paso 2: Una pierna extendida",
       "description": "Extiende solo una pierna.",
       "targetHoldTime": "3x10s por lado",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750893190/oar2_sm8gif.jpg",
       "videoUrl": "",
       "orden": 1
     },
@@ -589,7 +589,7 @@
       "name": "Paso 3: L-Sit completo",
       "description": "Mantén ambas piernas rectas y cuerpo suspendido.",
       "targetHoldTime": "3x10-15s",
-      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749239778/l-sit-on-floor_urpsbj.jpg",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750808001/L-Sit_rigbde.gif",
       "videoUrl": "",
       "orden": 2
     }
@@ -598,7 +598,7 @@
 {
   "id": "v_sit",
   "name": "V-Sit",
-  "iconUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237920/v-sit-on-floor_i2o35p.jpg",
+  "iconUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750893664/v-sit-on-floor_ksutab.jpg",
   "description": "Progresión avanzada del L-Sit, con piernas en ángulo agudo elevado.",
   "tipo": "estático",
   "levels": [
@@ -607,7 +607,7 @@
       "name": "Paso 1: L-Sit Sólido",
       "description": "Domina el L-Sit por al menos 15 segundos.",
       "targetHoldTime": "3x15s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750808001/L-Sit_rigbde.gif",
       "videoUrl": "",
       "orden": 0
     },
@@ -616,7 +616,7 @@
       "name": "Paso 2: V-Sit parcial",
       "description": "Eleva las piernas un poco más desde el L-Sit.",
       "targetHoldTime": "3x5-10s",
-      "imageUrl": "",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750893668/acmp9m1g7rx41_ehjgle.webp",
       "videoUrl": "",
       "orden": 1
     },
@@ -625,7 +625,7 @@
       "name": "Paso 3: V-Sit completo",
       "description": "Piernas apuntando hacia arriba, tronco inclinado al frente.",
       "targetHoldTime": "3x5-8s",
-      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237920/v-sit-on-floor_i2o35p.jpg",
+      "imageUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750893664/v-sit-on-floor_ksutab.jpg",
       "videoUrl": "",
       "orden": 2
     }
