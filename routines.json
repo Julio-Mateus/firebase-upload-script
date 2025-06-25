@@ -968,5 +968,449 @@
         "orden": 3
       }
     ]
-  }
+  },
+  {
+  "id": "rutina_avanzado_lunes_push",
+  "slug": "avanzado-lunes-push",
+  "nombre": "Push Avanzado – Planche y HSPU",
+  "descripcion": "Rutina de empuje enfocada en hombros, planche y handstand push-ups.",
+  "nivelRecomendado": ["Intermedio", "Avanzado"],
+  "objetivos": ["Fuerza", "Habilidades", "Control Corporal"],
+  "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+  "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750871697/avanzado_lunes_push_bpepwp.png",
+  "numeroDeRondas": 3,
+  "descansoEntreRondasSegundos": 90,
+  "ejercicios": [
+    {
+      "id": "rutina_avanzado_lunes_push_ej1",
+      "nombre": "Planche Lean Holds",
+      "descripcion": "Inclina el cuerpo hacia adelante con control para trabajar hombros y muñecas.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750781786/lean-planche_iisi0y.png",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "20-30s",
+      "grupoMuscular": "Hombros"
+    },
+    {
+      "id": "rutina_avanzado_lunes_push_ej2",
+      "nombre": "Pike Push-Ups",
+      "descripcion": "Flexiones en pica para fortalecer los hombros y progresar hacia el handstand push-up.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494925/Flexiones_Pike_igi47z.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "6-10",
+      "grupoMuscular": "Hombros"
+    },
+    {
+      "id": "rutina_avanzado_lunes_push_ej3",
+      "nombre": "Flexiones Pseudo-Planche",
+      "descripcion": "Flexiones con hombros adelantados para fortalecer deltoides y preparar planche.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750868181/Flexiones_Pseudo-Planche_fylcdy.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "8-10",
+      "grupoMuscular": "Pecho"
+    },
+    {
+      "id": "rutina_avanzado_lunes_push_ej4",
+      "nombre": "Fondos en Paralelas",
+      "descripcion": "Trabaja pecho, hombros y tríceps bajando con buena técnica.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750791080/Chest-Dip-on-Straight-Bar_Chest_pk7fpl.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "10-12",
+      "grupoMuscular": "Tríceps"
+    },
+    {
+      "id": "rutina_avanzado_lunes_push_ej5",
+      "nombre": "Dumbbell Shoulder Press",
+      "descripcion": "Press con mancuernas para fuerza de empuje vertical.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750781787/Dumbbell-Shoulder-Press_v9zvoi.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "8-10",
+      "grupoMuscular": "Hombros"
+    },
+    {
+      "id": "rutina_avanzado_lunes_push_ej6",
+      "nombre": "L-Sit en Paralelas",
+      "descripcion": "Sostén de piernas rectas para trabajar core y hombros.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750808001/L-Sit_rigbde.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "20-30s",
+      "grupoMuscular": "Core"
+    }
+  ]
+},
+  {
+  "id": "rutina_avanzado_martes_pull",
+  "slug": "avanzado-martes-pull",
+  "nombre": "Pull Avanzado – Front Lever y Muscle-Up",
+  "descripcion": "Rutina de tracción enfocada en dorsales, bíceps y habilidades como front lever y muscle-up.",
+  "nivelRecomendado": ["Intermedio", "Avanzado"],
+  "objetivos": ["Fuerza", "Habilidades", "Control Corporal"],
+  "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+  "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750871695/avanzado_martes_pull_zqvrmn.png",
+  "numeroDeRondas": 3,
+  "descansoEntreRondasSegundos": 90,
+  "ejercicios": [
+    {
+      "id": "rutina_avanzado_martes_pull_ej1",
+      "nombre": "Front Lever Tuck Isométrico",
+      "descripcion": "Mantén la posición tuck en barra para fortalecer espalda y core.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750807849/tuck-front-lever-row_v3qwd9.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "10-20s",
+      "grupoMuscular": "Espalda"
+    },
+    {
+      "id": "rutina_avanzado_martes_pull_ej2",
+      "nombre": "Dominadas Explosivas",
+      "descripcion": "Pull-ups explosivas para trabajar fuerza y velocidad hacia muscle-up.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494957/Muscle_Up_l4ules.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "6-8",
+      "grupoMuscular": "Espalda"
+    },
+    {
+      "id": "rutina_avanzado_martes_pull_ej3",
+      "nombre": "Negativas de Muscle-Up",
+      "descripcion": "Baja lentamente desde la posición alta del muscle-up.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237920/t%C3%A9cnica-muscle-up-completo_gyrflv.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "3-5",
+      "grupoMuscular": "Espalda"
+    },
+    {
+      "id": "rutina_avanzado_martes_pull_ej4",
+      "nombre": "Remo Invertido en Paralelas",
+      "descripcion": "Remo con peso corporal para espalda media e inferior.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750784965/parallel-bars-bent-knee-inverted-row-back_taqxxb.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "10-12",
+      "grupoMuscular": "Espalda"
+    },
+    {
+      "id": "rutina_avanzado_martes_pull_ej5",
+      "nombre": "Curl Alternado con Mancuerna",
+      "descripcion": "Fortalece bíceps y antebrazo, controla el movimiento.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750784983/Curl_Alternado_con_Mancuerna_qeimna.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "8 por brazo",
+      "grupoMuscular": "Bíceps"
+    },
+    {
+      "id": "rutina_avanzado_martes_pull_ej6",
+      "nombre": "Elevaciones de Rodillas en Barra",
+      "descripcion": "Ejercicio de core colgado que también mejora el agarre.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750785008/hanging-deadbug_i07gfd.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "15",
+      "grupoMuscular": "Core"
+    }
+  ]
+},
+  {
+  "id": "rutina_avanzado_miercoles_piernas",
+  "slug": "avanzado-miercoles-piernas",
+  "nombre": "Piernas y Core Avanzado",
+  "descripcion": "Entrenamiento completo para piernas y zona media con ejercicios unilaterales, control y movilidad.",
+  "nivelRecomendado": ["Intermedio", "Avanzado"],
+  "objetivos": ["Fuerza", "Estabilidad", "Core"],
+  "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+  "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750871715/avanzad_miercoles_piernas_icknnl.png",
+  "numeroDeRondas": 3,
+  "descansoEntreRondasSegundos": 90,
+  "ejercicios": [
+    {
+      "id": "rutina_avanzado_miercoles_piernas_ej1",
+      "nombre": "Sentadillas Búlgaras con Mancuerna",
+      "descripcion": "Pierna trasera elevada. Mejora fuerza unilateral y estabilidad.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494954/Sentadillas_B%C3%BAlgaras_g4hiok.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "6-10 por pierna",
+      "grupoMuscular": "Piernas"
+    },
+    {
+      "id": "rutina_avanzado_miercoles_piernas_ej2",
+      "nombre": "Pistols o Asistidas",
+      "descripcion": "Sentadillas a una pierna. Desarrollan control, equilibrio y fuerza.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237930/pistol-squat-muscles_ru1tfo.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "5-8 por pierna",
+      "grupoMuscular": "Piernas"
+    },
+    {
+      "id": "rutina_avanzado_miercoles_piernas_ej3",
+      "nombre": "Zancadas Caminando con Mancuernas",
+      "descripcion": "Paso largo y controlado con peso. Excelente para glúteos y estabilidad.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494957/Zancadas_con_Mancuernas_rcpfhh.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "10 por pierna",
+      "grupoMuscular": "Piernas"
+    },
+    {
+      "id": "rutina_avanzado_miercoles_piernas_ej4",
+      "nombre": "Elevaciones de Piernas Colgado",
+      "descripcion": "Core colgado en barra. Controla cada repetición para activar abdomen.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750785041/Hanging-Oblique-Knee-Raise_Waist_v0asel.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "10-15",
+      "grupoMuscular": "Core"
+    },
+    {
+      "id": "rutina_avanzado_miercoles_piernas_ej5",
+      "nombre": "Hollow Body Hold",
+      "descripcion": "Isométrico fundamental para control corporal. Posición de 'banana'.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494915/Hollow_Hold_m3qm2r.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "30-45s",
+      "grupoMuscular": "Core"
+    },
+    {
+      "id": "rutina_avanzado_miercoles_piernas_ej6",
+      "nombre": "Plancha Frontal + Laterales",
+      "descripcion": "Core completo: frontal y oblicuos en una misma ronda.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494875/ejercicio_plancha_zaggzu.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 1,
+      "repeticiones": "1min frontal + 30s por lado",
+      "grupoMuscular": "Core"
+    }
+  ]
+},
+  {
+  "id": "rutina_avanzado_jueves_pushskill",
+  "slug": "avanzado-jueves-pushskill",
+  "nombre": "Push Skill y Hombros",
+  "descripcion": "Rutina avanzada enfocada en handstand, control del equilibrio y fuerza de hombros.",
+  "nivelRecomendado": ["Intermedio", "Avanzado"],
+  "objetivos": ["Fuerza", "Control Corporal", "Habilidades"],
+  "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+  "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750871718/avanzado_jueves_pushskill_rjktxy.png",
+  "numeroDeRondas": 3,
+  "descansoEntreRondasSegundos": 90,
+  "ejercicios": [
+    {
+      "id": "rutina_avanzado_jueves_pushskill_ej1",
+      "nombre": "Handstand Hold (pared o libre)",
+      "descripcion": "Sostén en parada de manos. Mejora control, equilibrio y fuerza isométrica.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237917/handstand-walk_cghhhj.jpg",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "30-60s",
+      "grupoMuscular": "Hombros"
+    },
+    {
+      "id": "rutina_avanzado_jueves_pushskill_ej2",
+      "nombre": "Wall HSPU o Negativas",
+      "descripcion": "Baja en control desde handstand contra pared. Trabaja fuerza vertical.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749237926/handstand-pushup_qqyq6r.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "3-5",
+      "grupoMuscular": "Hombros"
+    },
+    {
+      "id": "rutina_avanzado_jueves_pushskill_ej3",
+      "nombre": "Shoulder Taps en Handstand",
+      "descripcion": "Toca un hombro mientras sostienes el equilibrio en parada de manos.",
+      "imagenUrl": "",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "8-10",
+      "grupoMuscular": "Hombros"
+    },
+    {
+      "id": "rutina_avanzado_jueves_pushskill_ej4",
+      "nombre": "Elevación Frontal con Mancuernas",
+      "descripcion": "Eleva los brazos con control al frente. Enfocado en deltoides frontales.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750790069/Dumbbell-Front-Raise_Shoulders_r38egj.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "10-12",
+      "grupoMuscular": "Hombros"
+    },
+    {
+      "id": "rutina_avanzado_jueves_pushskill_ej5",
+      "nombre": "Planche Lean Push-Ups",
+      "descripcion": "Flexiones inclinando el cuerpo hacia adelante. Mejora fuerza y progresión a planche.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750781786/lean-planche_iisi0y.png",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "6-8",
+      "grupoMuscular": "Hombros"
+    },
+    {
+      "id": "rutina_avanzado_jueves_pushskill_ej6",
+      "nombre": "Dips Profundos en Paralelas",
+      "descripcion": "Fondos profundos para estimular todo el rango de movimiento del empuje.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750791080/Chest-Dip-on-Straight-Bar_Chest_pk7fpl.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "10",
+      "grupoMuscular": "Tríceps"
+    }
+  ]
+},
+  {
+  "id": "rutina_avanzado_viernes_pullskill",
+  "slug": "avanzado-viernes-pullskill",
+  "nombre": "Pull Skill y Fuerza",
+  "descripcion": "Rutina de tracción avanzada para mejorar fuerza máxima, control y habilidades como front lever y muscle-up.",
+  "nivelRecomendado": ["Intermedio", "Avanzado"],
+  "objetivos": ["Fuerza", "Habilidades", "Control Corporal"],
+  "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+  "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750871724/avanzado_viernes_pullskill_fvuydd.png",
+  "numeroDeRondas": 3,
+  "descansoEntreRondasSegundos": 90,
+  "ejercicios": [
+    {
+      "id": "rutina_avanzado_viernes_pullskill_ej1",
+      "nombre": "Dominadas con Lastre o Lentitud",
+      "descripcion": "Realiza dominadas con peso extra o bajadas muy controladas para ganar fuerza pura.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1749494957/Muscle_Up_l4ules.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "5-8",
+      "grupoMuscular": "Espalda"
+    },
+    {
+      "id": "rutina_avanzado_viernes_pullskill_ej2",
+      "nombre": "Front Lever Pulls (Tuck)",
+      "descripcion": "Desde tuck front lever, tira hacia arriba controlando el cuerpo en línea.",
+      "imagenUrl": "",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "3-5",
+      "grupoMuscular": "Espalda"
+    },
+    {
+      "id": "rutina_avanzado_viernes_pullskill_ej3",
+      "nombre": "Remo Unilateral con Mancuerna",
+      "descripcion": "Remo con un brazo para activar dorsal y estabilizar el core.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750791819/Dumbbell-Bent-over-Row_back_Back_dipibr.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "10 por brazo",
+      "grupoMuscular": "Espalda"
+    },
+    {
+      "id": "rutina_avanzado_viernes_pullskill_ej4",
+      "nombre": "Muscle-Up Asistido (banda)",
+      "descripcion": "Practica el muscle-up usando una banda para ayudarte con la transición.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750791956/Muscle_Up_Asistido__banda_qfdyig.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "3-5",
+      "grupoMuscular": "Espalda"
+    },
+    {
+      "id": "rutina_avanzado_viernes_pullskill_ej5",
+      "nombre": "Curl Martillo con Mancuerna",
+      "descripcion": "Bíceps y antebrazo trabajando con mancuerna en agarre neutro.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750792042/Dumbbell-Cross-Body-Hammer-Curl_Forearms_aailr3.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "10",
+      "grupoMuscular": "Bíceps"
+    },
+    {
+      "id": "rutina_avanzado_viernes_pullskill_ej6",
+      "nombre": "Leg Raises + Hold en Barra",
+      "descripcion": "Eleva las piernas y mantén la posición. Fortalece core y control en barra.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750792164/HANG_LEG_RAIGE_urewvv.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 4,
+      "repeticiones": "10 + 10s",
+      "grupoMuscular": "Core"
+    },
+    {
+      "id": "rutina_avanzado_viernes_pullskill_ej7",
+      "nombre": "Superman Hold",
+      "descripcion": "Acuéstate boca abajo y eleva brazos y piernas. Refuerza zona lumbar.",
+      "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750792207/Superman_Waist_yg16r5.gif",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "30s",
+      "grupoMuscular": "Espalda Baja"
+    }
+  ]
+},
+  {
+  "id": "rutina_avanzado_sabado_freestyle",
+  "slug": "avanzado-sabado-freestyle",
+  "nombre": "Freestyle y Movilidad",
+  "descripcion": "Sesión libre para técnica, movilidad, estiramientos y control corporal.",
+  "nivelRecomendado": ["Todos"],
+  "objetivos": ["Movilidad", "Técnica", "Recuperación"],
+  "lugarEntrenamiento": ["CASA", "EXTERIOR", "CALISTENIA"],
+  "imagenUrl": "https://res.cloudinary.com/dhdiifok0/image/upload/v1750871698/avanzado_sabado_freestyle_od1ho5.png",
+  "numeroDeRondas": 1,
+  "descansoEntreRondasSegundos": 60,
+  "ejercicios": [
+    {
+      "id": "rutina_avanzado_sabado_freestyle_ej1",
+      "nombre": "Handstand Flow",
+      "descripcion": "Fluye entre variantes de handstand, giros y salidas para controlar la vertical.",
+      "imagenUrl": "",
+      "videoUrl": "",
+      "numeroDeSeries": 1,
+      "repeticiones": "10 min",
+      "grupoMuscular": "Hombros"
+    },
+    {
+      "id": "rutina_avanzado_sabado_freestyle_ej2",
+      "nombre": "Planche Practice con Banda",
+      "descripcion": "Practica la posición de planche usando banda para asistencia técnica.",
+      "imagenUrl": "",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "al fallo",
+      "grupoMuscular": "Hombros"
+    },
+    {
+      "id": "rutina_avanzado_sabado_freestyle_ej3",
+      "nombre": "Transiciones de Muscle-Up",
+      "descripcion": "Ensaya la fase de transición entre dominada y empuje del muscle-up.",
+      "imagenUrl": "",
+      "videoUrl": "",
+      "numeroDeSeries": 3,
+      "repeticiones": "5",
+      "grupoMuscular": "Espalda"
+    },
+    {
+      "id": "rutina_avanzado_sabado_freestyle_ej4",
+      "nombre": "Flexibilidad Activa (puente, piernas)",
+      "descripcion": "Ejercicios de flexibilidad dinámica para columna, hombros y caderas.",
+      "imagenUrl": "",
+      "videoUrl": "",
+      "numeroDeSeries": 1,
+      "repeticiones": "15 min",
+      "grupoMuscular": "Movilidad"
+    },
+    {
+      "id": "rutina_avanzado_sabado_freestyle_ej5",
+      "nombre": "Respiración y Estiramientos",
+      "descripcion": "Trabajo de respiración consciente y estiramientos para recuperar.",
+      "imagenUrl": "",
+      "videoUrl": "",
+      "numeroDeSeries": 1,
+      "repeticiones": "10 min",
+      "grupoMuscular": "Recuperación"
+    }
+  ]
+}
 ]
