@@ -15,6 +15,8 @@ const db = admin.firestore();
 const routinesFilePath = './routines.json';
 const calisthenicsProgressionsFilePath = './calisthenics_progressions.json';
 const stoicModulesFilePath = './stoic_modules.json'; // <--- AÑADE ESTA LÍNEA
+const productsFilePath = './products.json'; // <--- NUEVA LÍNEA
+
 
 // --- Función para subir datos CON SUBCOLECCIÓN ---
 async function uploadDataWithSubcollection(
@@ -132,6 +134,50 @@ async function uploadEmbeddedData(
     console.error(`Error durante la carga (con datos embebidos) desde "${filePath}":`, error);
   }
 }
+async function uploadProducts() {
+  try {
+    const rawData = fs.readFileSync(productsFilePath, 'utf8');
+    const products = JSON.parse(rawData);
+
+    console.log(`\n--- Cargando ${products.length} productos desde "${productsFilePath}" ---`);
+
+    const batch = db.batch();
+    let added = 0;
+
+    for (const p of products) {
+      if (!p.id) {
+        console.warn(`⚠️ Producto sin ID: ${p.nombre}`);
+        continue;
+      }
+
+      const ref = db.collection("products").doc(p.id);
+      const existing = await ref.get();
+      if (existing.exists) {
+        console.log(`  Producto ya existe: ${p.nombre} (ID: ${p.id}) — Saltando`);
+        continue;
+      }
+
+      const productoConFecha = {
+        ...p,
+        fechaCreacion: new Date(),
+      };
+
+      batch.set(ref, productoConFecha);
+      console.log(`  ✔️ Agregando: ${p.nombre}`);
+      added++;
+    }
+
+    if (added > 0) {
+      await batch.commit();
+      console.log(`✅ Subida completada: ${added} productos nuevos`);
+    } else {
+      console.log(`ℹ️ No se agregaron nuevos productos`);
+    }
+
+  } catch (err) {
+    console.error("❌ Error al subir productos:", err);
+  }
+}
 
 
 // --------------- LÓGICA PRINCIPAL DE SUBIDA ---------------
@@ -158,6 +204,7 @@ async function main() {
     'stoic_modules',          // Nombre de la colección principal en Firestore
     'Módulo de Estoicismo'    // Nombre para los logs
   );
+  await uploadProducts();
 
   console.log("\nTodas las operaciones de subida intentadas.");
 }
