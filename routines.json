@@ -1,6 +1,6 @@
 [
   {
-    "id": "rutina_principiante_fullbody",
+    "id": "principiante-fullbody",
     "slug": "principiante-fullbody",
     "nombre": "Rutina de Cuerpo Completo para Principiantes",
     "descripcion": "Una rutina de cuerpo completo ideal para quienes se inician en el fitness, enfocada en movimientos básicos.",
@@ -143,7 +143,7 @@
     ]
   },
   {
-    "id": "rutina_intermedio_pecho_triceps",
+    "id": "intermedio-pecho-triceps",
     "slug": "intermedio-pecho-triceps",
     "nombre": "Rutina Intermedia de Pecho y Tríceps",
     "descripcion": "Rutina enfocada en ganar fuerza y masa muscular en pecho y tríceps para intermedios.",
@@ -287,7 +287,7 @@
     ]
   },
   {
-    "id": "rutina_avanzado_piernas_femoral_gluteo",
+    "id": "avanzado-piernas-femoral-gluteo",
     "slug": "avanzado-piernas-femoral-gluteo",
     "nombre": "Rutina Avanzada de Piernas, Femoral y Glúteo",
     "descripcion": "Rutina intensa para desarrollar fuerza y volumen en la parte inferior del cuerpo para niveles avanzados.",
@@ -456,7 +456,7 @@
     ]
   },
   {
-    "id": "rutina_calistenia_principiante_superior",
+    "id": "calistenia-principiante-superior",
     "slug": "calistenia-principiante-superior",
     "nombre": "Calistenia para Tren Superior",
     "descripcion": "Rutina centrada en desarrollar fuerza básica con tu propio peso corporal.",
@@ -596,7 +596,7 @@
     ]
   },
   {
-    "id": "rutina_intermedia_piernas_casa",
+    "id": "intermedia-piernas-casa",
     "slug": "intermedia-piernas-casa",
     "nombre": "Piernas Fuertes en Casa",
     "descripcion": "Una rutina desafiante para piernas y glúteos, sin necesidad de gimnasio.",
@@ -724,7 +724,7 @@
     ]
   },
   {
-    "id": "rutina_fullbody_avanzado_exterior",
+    "id": "fullbody-avanzado-exterior",
     "slug": "fullbody-avanzado-exterior",
     "nombre": "Full Body Avanzado al Aire Libre",
     "descripcion": "Domina tu cuerpo con esta rutina intensa de calistenia para todo el cuerpo al aire libre.",
@@ -869,7 +869,7 @@
     ]
   },
   {
-    "id": "rutina_principiante_abdomen",
+    "id": "principiante-abdomen-casa",
     "slug": "principiante-abdomen-casa",
     "nombre": "Rutina de Abdomen para Principiantes en Casa",
     "descripcion": "Rutina básica para fortalecer el core sin necesidad de equipamiento.",
@@ -995,7 +995,7 @@
     ]
   },
   {
-    "id": "rutina_intermedio_superior_exterior",
+    "id": "intermedio-superior-exterior",
     "slug": "intermedio-superior-exterior",
     "nombre": "Rutina de Tren Superior al Aire Libre",
     "descripcion": "Ideal para quienes entrenan en parques, usando el peso corporal. Esta rutina trabaja fuerza, resistencia y control corporal en el tren superior.",
@@ -1130,7 +1130,7 @@
     ]
   },
   {
-    "id": "rutina_intermedia_fullbody_calistenia",
+    "id": "intermedia-fullbody-calistenia",
     "slug": "intermedia-fullbody-calistenia",
     "nombre": "Full Body Intermedio - Calistenia",
     "descripcion": "Entrena todo el cuerpo con ejercicios funcionales usando tu propio peso.",
@@ -1241,7 +1241,7 @@
     ]
   },
   {
-    "id": "rutina_principiante_cardio_casa",
+    "id": "principiante-cardio-casa",
     "slug": "principiante-cardio-casa",
     "nombre": "Cardio para Principiantes en Casa",
     "descripcion": "Rutina para mejorar el sistema cardiovascular sin equipamiento.",
@@ -1412,7 +1412,7 @@
     ]
   },
   {
-    "id": "rutina_avanzado_lunes_push",
+    "id": "avanzado-lunes-push",
     "slug": "avanzado-lunes-push",
     "nombre": "Push Avanzado – Planche y HSPU",
     "descripcion": "Rutina de empuje enfocada en hombros, planche y handstand push-ups.",
@@ -1577,7 +1577,7 @@
     ]
   },
   {
-    "id": "rutina_avanzado_martes_pull",
+    "id": "avanzado-martes-pull",
     "slug": "avanzado-martes-pull",
     "nombre": "Pull Avanzado – Front Lever y Muscle-Up",
     "descripcion": "Rutina de tracción enfocada en dorsales, bíceps y habilidades como front lever y muscle-up.",
@@ -1745,7 +1745,7 @@
     ]
   },
   {
-    "id": "rutina_avanzado_miercoles_piernas",
+    "id": "avanzado-miercoles-piernas",
     "slug": "avanzado-miercoles-piernas",
     "nombre": "Piernas y Core Avanzado",
     "descripcion": "Entrenamiento completo para piernas y zona media con ejercicios unilaterales, control y movilidad.",
@@ -1943,7 +1943,7 @@
     ]
   },
   {
-    "id": "rutina_avanzado_jueves_pushskill",
+    "id": "avanzado-jueves-pushskill",
     "slug": "avanzado-jueves-pushskill",
     "nombre": "Push Skill y Hombros",
     "descripcion": "Rutina avanzada enfocada en handstand, control del equilibrio y fuerza de hombros.",
@@ -2104,7 +2104,7 @@
     ]
   },
   {
-    "id": "rutina_avanzado_viernes_pullskill",
+    "id": "avanzado-viernes-pullskill",
     "slug": "avanzado-viernes-pullskill",
     "nombre": "Pull Skill y Fuerza",
     "descripcion": "Rutina de tracción avanzada para mejorar fuerza máxima, control y habilidades como front lever y muscle-up.",
@@ -2293,7 +2293,7 @@
     ]
   },
   {
-    "id": "rutina_avanzado_sabado_freestyle",
+    "id": "avanzado-sabado-freestyle",
     "slug": "avanzado-sabado-freestyle",
     "nombre": "Freestyle y Movilidad",
     "descripcion": "Sesión libre para técnica, movilidad, estiramientos y control corporal.",
@@ -2428,7 +2428,7 @@
     ]
   },
   {
-    "id": "rutina_push_lunes",
+    "id": "lunes-push-pesado",
     "slug": "lunes-push-pesado",
     "nombre": "Push Pesado (Pecho, Hombros, Tríceps)",
     "descripcion": "Fuerza e hipertrofia sarcomérica. Enfocado en empuje con carga moderada a alta.",
@@ -2621,7 +2621,7 @@
     ]
   },
   {
-    "id": "rutina_pull_martes",
+    "id": "martes-pull-pesado",
     "slug": "martes-pull-pesado",
     "nombre": "Pull Pesado (Espalda y Bíceps)",
     "descripcion": "Activación profunda de dorsales y bíceps con foco en fuerza e hipertrofia sarcomérica.",
@@ -2791,7 +2791,7 @@
     ]
   },
   {
-    "id": "rutina_miercoles_piernas_optimizada",
+    "id": "miercoles-piernas-hipertrofia",
     "slug": "miercoles-piernas-hipertrofia",
     "nombre": "Piernas Completas – Volumen y Fuerza",
     "descripcion": "Entrenamiento enfocado en el desarrollo completo de las piernas, con especial énfasis en glúteos, cuádriceps e isquiotibiales, incluyendo estabilidad y explosividad.",
@@ -3004,7 +3004,7 @@
     ]
   },
   {
-    "id": "rutina_calistenia_jueves",
+    "id": "jueves-calistenia-tecnica",
     "slug": "jueves-calistenia-tecnica",
     "nombre": "Calistenia Técnica y Movilidad",
     "descripcion": "Mejora del control corporal, progresiones y estabilidad. Incluye trabajo de core y movilidad activa.",
@@ -3176,7 +3176,7 @@
     ]
   },
   {
-    "id": "rutina_funcional_viernes",
+    "id": "viernes-fullbody-funcional",
     "slug": "viernes-fullbody-funcional",
     "nombre": "Full Body Funcional + Core",
     "descripcion": "Entrenamiento integral para mejorar la potencia, resistencia muscular y estabilidad central (core).",
@@ -3419,7 +3419,7 @@
     ]
   },
   {
-    "id": "rutina_sabado_volumen",
+    "id": "sabado-volumen-metabolico",
     "slug": "sabado-volumen-metabolico",
     "nombre": "Volumen + Tensión Metabólica",
     "descripcion": "Rutina centrada en superseries, alta repetición y mínima pausa para estimular hipertrofia sarcoplasmática.",
